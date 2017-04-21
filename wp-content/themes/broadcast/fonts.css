@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "pfdindisplaypro-bold";
+  src: url("../fonts/pfdindisplaypro-bold/pfdindisplaypro-bold.eot");
+  src: local("☺"), url("../fonts/pfdindisplaypro-bold/pfdindisplaypro-bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "pfdindisplaypro-italic";
+  src: url("../fonts/pfdindisplaypro-italic/pfdindisplaypro-italic.eot");
+  src: local("☺"), url("../fonts/pfdindisplaypro-italic/pfdindisplaypro-italic.woff") format("woff"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic/OpenSans-BoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "pfdindisplaypro-light";
+  src: url("../fonts/pfdindisplaypro-light/pfdindisplaypro-light.eot");
+  src: local("☺"), url("../fonts/pfdindisplaypro-light/pfdindisplaypro-light.woff") format("woff"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBold/OpenSans-ExtraBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "pfdindisplaypro-med";
+  src: url("../fonts/pfdindisplaypro-med/pfdindisplaypro-medeot");
+  src: local("☺"), url("../fonts/pfdindisplaypro-med/pfdindisplaypro-med.woff") format("woff"), url("../fonts/OpenSans-Italic/OpenSans-Italic.ttf") format("truetype"), url("../fonts/OpenSans-Italic/OpenSans-Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "pfdindisplaypro-reg";
+  src: url("../fonts/pfdindisplaypro-reg/pfdindisplaypro-reg.eot");
+  src: local("☺"), url("../fonts/pfdindisplaypro-reg/pfdindisplaypro-reg.woff") format("woff"), url("../fonts/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular/OpenSans-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "pfdindisplaypro-thin";
+  src: url("../fonts/pfdindisplaypro-thin/pfdindisplaypro-thin.eot");
+  src: local("☺"), url("../fonts/pfdindisplaypro-thin/pfdindisplaypro-thin.woff") format("woff"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.ttf") format("truetype"), url("../fonts/OpenSans-Semibold/OpenSans-Semibold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+

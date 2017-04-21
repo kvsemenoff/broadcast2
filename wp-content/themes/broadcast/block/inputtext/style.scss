@@ -1,0 +1,27 @@
+
+.input_theme_rosa {
+  display: inline-block;
+  line-height: 24px;
+  max-width: 355px;  
+  width: 100%;
+}
+
+.input__control{
+	font-family: "Segoe UI Regular";	
+	color: #a2a2a2;
+	font-size: 16px;
+	line-height: 30px;
+	background: transparent;
+	padding: 7px 20px;
+	outline: none; 
+	width: 100%;
+	border: 1px solid #cdcdcd;
+	&::-webkit-input-placeholder {color: #a2a2a2;}
+	&::-moz-placeholder          {color: #a2a2a2;}/* Firefox 19+ */
+	&:-moz-placeholder           {color: #a2a2a2;}/* Firefox 18- */
+	&:-ms-input-placeholder      {color: #a2a2a2;}
+}
+.input__control:focus, .input__control:active{
+	color: #282828;
+	border: 1px solid #818181;
+}
