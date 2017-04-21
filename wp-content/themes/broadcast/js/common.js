@@ -1,4 +1,4 @@
-
+console.log('That is working!');
 
 $(document).ready(function(){
 	$('.main-menu a[href^="#"]').click(function(){ 

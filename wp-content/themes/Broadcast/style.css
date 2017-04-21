@@ -1,3 +1,20 @@
+@charset "UTF-8";
+/*   
+Theme Name: Broadcast
+Description: Custom-theme
+Version: 1.0
+*/
+@import url(style-db.css);
+@import url(style-dd.css);
+@import url(style-df.css);
+@import url(style-dg.css);
+@import url(style-di.css);
+@import url(style-dj.css);
+@import url(font.css);
+@import url(style.css);
+@import url(reset.css);
+
+/* Fonts */
 @font-face {
   font-family: "SegoeUIRegular";
   src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
@@ -32,3 +49,14 @@
   src: url("../fonts/SegoeUILight/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"), url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
+
+.clear {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
+body {
+  font-family: 'SegoeUISemiBold';
+  font-size: 16px;
+  line-height: 22px; }

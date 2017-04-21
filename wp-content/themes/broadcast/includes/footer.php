@@ -47,10 +47,11 @@
 	</div>
 </div>
 <a href="#modal__thanks" class="fancybox"></a>
+<?php wp_footer(); ?>
 <!-- JS_BLOCK -->
-<script src="libs/jquery/jquery-1.11.1.min.js"></script>
-<script src="libs/owl.carousel/owl.carousel.js"></script>
-<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script>
-<script src="js/common.js"></script>
-<script src="/js/outerstyles.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/libs/owl.carousel/owl.carousel.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.maskedinput.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/outerstyles.js"></script> 

@@ -1,11 +1,8 @@
-<?php
+<?php 	
 remove_filter('the_content', 'wptexturize'); 
 
   if (function_exists('register_sidebar'))
 	register_sidebar(array('name' => 'Sidebar'));
-
-
-
 
 register_nav_menus(array(
 	'top' => 'Верхнее меню',            
@@ -164,575 +161,138 @@ function true_duplicate_post_link( $actions, $post ) {
 add_filter( 'post_row_actions', 'true_duplicate_post_link', 10, 2 );
 add_filter( 'page_row_actions', 'true_duplicate_post_link', 10, 2);
 
-// Валерий 28.01.2017 13:55
-// Custom functions
-// Отзывы
-add_action('init', 'testimonials_register');
-function testimonials_register() {
-    $args = array(
-        'label'               => __('Отзывы'),
-        'labels'              => array(
-            'name'               => __('Отзывы'),
-            'singular_name'      => __('Отзывы'),
-            'menu_name'          => __('Отзывы'),
-            'all_items'          => __('Все отзывы'),
-            'add_new'            => _x('Добавить отзыв', 'product'),
-            'add_new_item'       => __('Новый отзыв'),
-            'edit_item'          => __('Редактировать отзыв'),
-            'new_item'           => __('Новый отзыв'),
-            'view_item'          => __('Отзывы'),
-            'not_found'          => __('Отзыв не найден'),
-            'not_found_in_trash' => __('Удаленных отзывов нет'),
-            'search_items'       => __('Найти отзыв')
-        ),
-        'description'         => __('Отзывы'),
-        'public'              => true,
-        'exclude_from_search' => false,
-        'publicly_queryable'  => true,
-        'show_ui'             => true,
-        'show_in_nav_menus'   => true,
-        'show_in_menu'        => true,
-        'show_in_admin_bar'   => true,
-        'menu_position'       => 5,
-        'capability_type'     => 'post',
-        'hierarchical'        => false,
-        'supports'            => array(
-            'title'
-            
-   
-        ),
-        'has_archive'         => false,
-        'rewrite'             => array(
-            'slug'       => '',
-            'with_front' => false
-        )
-    );
-    register_post_type('testimonials', $args);
-}
-// акции
-add_action('init', 'events_register');
-function events_register() {
-    $args = array(
-        'label'               => __('Акции'),
-        'labels'              => array(
-            'name'               => __('Акции'),
-            'singular_name'      => __('Акции'),
-            'menu_name'          => __('Акции'),
-            'all_items'          => __('Все акции'),
-            'add_new'            => _x('Добавить акцию', 'product'),
-            'add_new_item'       => __('Новая акция'),
-            'edit_item'          => __('Редактировать акцию'),
-            'new_item'           => __('Новая акция'),
-            'view_item'          => __('Акции'),
-            'not_found'          => __('Акция не найдена'),
-            'not_found_in_trash' => __('Удаленных акций нет'),
-            'search_items'       => __('Найти акцию')
-        ),
-        'description'         => __('Акции'),
-        'public'              => true,
-        'exclude_from_search' => false,
-        'publicly_queryable'  => true,
-        'show_ui'             => true,
-        'show_in_nav_menus'   => true,
-        'show_in_menu'        => true,
-        'show_in_admin_bar'   => true,
-        'menu_position'       => 5,
-        'capability_type'     => 'post',
-        'hierarchical'        => false,
-        'supports'            => array(
-            'title'
-            
-   
-        ),
-        'has_archive'         => false,
-        'rewrite'             => array(
-            'slug'       => '',
-            'with_front' => false
-        )
-    );
-    register_post_type('events', $args);
-}
-// Статьи
-add_action('init', 'articles_register');
-function articles_register() {
-    $args = array(
-        'label'               => __('Статьи'),
-        'labels'              => array(
-            'name'               => __('Статьи'),
-            'singular_name'      => __('Статьи'),
-            'menu_name'          => __('Статьи'),
-            'all_items'          => __('Все статьи'),
-            'add_new'            => _x('Добавить статью', 'product'),
-            'add_new_item'       => __('Новая статья'),
-            'edit_item'          => __('Редактировать статью'),
-            'new_item'           => __('Новая статья'),
-            'view_item'          => __('Статьи'),
-            'not_found'          => __('Статья не найдена'),
-            'not_found_in_trash' => __('Удаленных статей нет'),
-            'search_items'       => __('Найти статью')
-        ),
-        'description'         => __('Статьи'),
-        'public'              => true,
-        'exclude_from_search' => false,
-        'publicly_queryable'  => true,
-        'show_ui'             => true,
-        'show_in_nav_menus'   => true,
-        'show_in_menu'        => true,
-        'show_in_admin_bar'   => true,
-        'menu_position'       => 5,
-        'capability_type'     => 'post',
-        'hierarchical'        => false,
-        'supports'            => array(
-            'title'
-            
-   
-        ),
-        'has_archive'         => false,
-        'rewrite'             => array(
-            'slug'       => '',
-            'with_front' => false
-        )
-    );
-    register_post_type('articles', $args);
-}
-//Работа
-add_action('init', 'works_register');
-function works_register() {
-    $args = array(
-        'label'               => __('Работа'),
-        'labels'              => array(
-            'name'               => __('Работа'),
-            'singular_name'      => __('Работа'),
-            'menu_name'          => __('Работа'),
-            'all_items'          => __('Все работы'),
-            'add_new'            => _x('Добавить работу', 'product'),
-            'add_new_item'       => __('Новая работа'),
-            'edit_item'          => __('Редактировать работу'),
-            'new_item'           => __('Новая работа'),
-            'view_item'          => __('Работы'),
-            'not_found'          => __('Работа не найдена'),
-            'not_found_in_trash' => __('Удаленных работ нет'),
-            'search_items'       => __('Найти работу')
-        ),
-        'description'         => __('Работа'),
-        'public'              => true,
-        'exclude_from_search' => false,
-        'publicly_queryable'  => true,
-        'show_ui'             => true,
-        'show_in_nav_menus'   => true,
-        'show_in_menu'        => true,
-        'show_in_admin_bar'   => true,
-        'menu_position'       => 5,
-        'capability_type'     => 'post',
-        'hierarchical'        => false,
-        'supports'            => array(
-            'title'
-            
-   
-        ),
-        'has_archive'         => false,
-        'rewrite'             => array(
-            'slug'       => '',
-            'with_front' => false
-        )
-    );
-    register_post_type('works', $args);
-}
-?>
-<?php
+function register_styles(){
+	wp_register_style('my-bootstrap',get_template_directory_uri().'/libs/bootstrap/bootstrap-grid-3.3.1.min.css');
+	wp_enqueue_style('my-bootstrap');
 
-/**
- * Хлебные крошки для WordPress (breadcrumbs)
- *
- * @param  string [$sep  = '']      Разделитель. По умолчанию ' » '
- * @param  array  [$l10n = array()] Для локализации. См. переменную $default_l10n.
- * @param  array  [$args = array()] Опции. См. переменную $def_args
- * @return string Выводит на экран HTML код
- *
- * version 3.3.1
- */
-function kama_breadcrumbs( $sep = ' » ', $l10n = array(), $args = array() ){
-    $kb = new Kama_Breadcrumbs;
-    echo $kb->get_crumbs( $sep, $l10n, $args );
-}
+	wp_register_style('fancy-box',get_template_directory_uri().'/libs/fancybox/jquery.fancybox.css');
+	wp_enqueue_style('fancy-box');
 
-class Kama_Breadcrumbs {
+	wp_register_style('carousel',get_template_directory_uri().'/libs/owl.carousel/assets/owl.carousel.css');
+	wp_enqueue_style('my-bootstrap');
 
-    public $arg;
+	wp_register_style('reset',get_template_directory_uri().'/css/reset.css');
+	wp_enqueue_style('reset');
 
-    // Локализация
-    static $l10n = array(
-        'home'       => 'Главная',
-        'paged'      => 'Страница %d',
-        '_404'       => 'Ошибка 404',
-        'search'     => 'Результаты поиска по запросу - <b>%s</b>',
-        'author'     => 'Архив автора: <b>%s</b>',
-        'year'       => 'Архив за <b>%d</b> год',
-        'month'      => 'Архив за: <b>%s</b>',
-        'day'        => '',
-        'attachment' => 'Медиа: %s',
-        'tag'        => 'Записи по метке: <b>%s</b>',
-        'tax_tag'    => '%1$s из "%2$s" по тегу: <b>%3$s</b>',
-        // tax_tag выведет: 'тип_записи из "название_таксы" по тегу: имя_термина'.
-        // Если нужны отдельные холдеры, например только имя термина, пишем так: 'записи по тегу: %3$s'
-    );
+	wp_register_style('fonts',get_template_directory_uri().'/css/fonts.css');
+	wp_enqueue_style('fonts');
 
-    // Параметры по умолчанию
-    static $args = array(
-        'on_front_page'   => true,  // выводить крошки на главной странице
-        'show_post_title' => true,  // показывать ли название записи в конце (последний элемент). Для записей, страниц, вложений
-        'show_term_title' => true,  // показывать ли название элемента таксономии в конце (последний элемент). Для меток, рубрик и других такс
-        'title_patt'      => '<span class="kb_title">%s</span>', // шаблон для последнего заголовка. Если включено: show_post_title или show_term_title
-        'last_sep'        => true,  // показывать последний разделитель, когда заголовок в конце не отображается
-        'markup'          => 'schema.org', // 'markup' - микроразметка. Может быть: 'rdf.data-vocabulary.org', 'schema.org', '' - без микроразметки
-                                           // или можно указать свой массив разметки:
-                                           // array( 'wrappatt'=>'<div class="kama_breadcrumbs">%s</div>', 'linkpatt'=>'<a href="%s">%s</a>', 'sep_after'=>'', )
-        'priority_tax'    => array('category'), // приоритетные таксономии, нужно когда запись в нескольких таксах
-        'priority_terms'  => array(), // 'priority_terms' - приоритетные элементы таксономий, когда запись находится в нескольких элементах одной таксы одновременно.
-                                      // Например: array( 'category'=>array(45,'term_name'), 'tax_name'=>array(1,2,'name') )
-                                      // 'category' - такса для которой указываются приор. элементы: 45 - ID термина и 'term_name' - ярлык.
-                                      // порядок 45 и 'term_name' имеет значение: чем раньше тем важнее. Все указанные термины важнее неуказанных...
-        'nofollow' => false, // добавлять rel=nofollow к ссылкам?
+	 wp_register_style('style',get_template_directory_uri().'style.css');
+	 wp_enqueue_style('style');
 
-        // служебные
-        'sep'             => '',
-        'linkpatt'        => '',
-        'pg_end'          => '',
-    );
+	wp_register_style('block_h2',get_template_directory_uri().'/block/h2/h2.css');
+	wp_enqueue_style('block_h2');
 
-    function get_crumbs( $sep, $l10n, $args ){
-        global $post, $wp_query, $wp_post_types;
+	wp_register_style('button',get_template_directory_uri().'/block/button/button.css');
+	wp_enqueue_style('button');
 
-        self::$args['sep'] = $sep;
+	wp_register_style('inputtext',get_template_directory_uri().'/block/inputtext/style.css');
+	wp_enqueue_style('inputtext');
 
-        // Фильтрует дефолты и сливает
-        $loc = (object) array_merge( apply_filters('kama_breadcrumbs_default_loc', self::$l10n ), $l10n );
-        $arg = (object) array_merge( apply_filters('kama_breadcrumbs_default_args', self::$args ), $args );
+	wp_register_style('q',get_template_directory_uri().'/block/q/q.css');
+	wp_enqueue_style('q');
 
-        $arg->sep = '<span class="kb_sep">'. $arg->sep .'</span>'; // дополним
+	wp_register_style('ol',get_template_directory_uri().'/block/ol/ol.css');
+	wp_enqueue_style('ol');
 
-        // упростим
-        $sep = & $arg->sep;
-        $this->arg = & $arg;
+	wp_register_style('form',get_template_directory_uri().'/block/form/form.css');
+	wp_enqueue_style('form');
 
-        // микроразметка ---
-        if(1){
-            $mark = & $arg->markup;
+	wp_register_style('db',get_template_directory_uri().'/css/style-db.css');
+	wp_enqueue_style('db');
 
-            // Разметка по умолчанию
-            if( ! $mark ) $mark = array(
-                'wrappatt'  => '<div class="kama_breadcrumbs">%s</div>',
-                'linkpatt'  => '<a href="%s">%s</a>',
-                'sep_after' => '',
-            );
-            // rdf
-            elseif( $mark === 'rdf.data-vocabulary.org' ) $mark = array(
-                'wrappatt'   => '<div class="kama_breadcrumbs" prefix="v: http://rdf.data-vocabulary.org/#">%s</div>',
-                'linkpatt'   => '<span typeof="v:Breadcrumb"><a href="%s" rel="v:url" property="v:title">%s</a>',
-                'sep_after'  => '</span>', // закрываем span после разделителя!
-            );
-            // schema.org
-            elseif( $mark === 'schema.org' ) $mark = array(
-                'wrappatt'   => '<div class="kama_breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">%s</div>',
-                'linkpatt'   => '<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="%s" itemprop="item"><span itemprop="name">%s</span></a></span>',
-                'sep_after'  => '',
-            );
+	wp_register_style('dc',get_template_directory_uri().'/css/style-dc.css');
+	wp_enqueue_style('dc');
 
-            elseif( ! is_array($mark) )
-                die( __CLASS__ .': "markup" parameter must be array...');
+	wp_register_style('de',get_template_directory_uri().'/css/style-de.css');
+	wp_enqueue_style('de');
 
-            $wrappatt  = $mark['wrappatt'];
-            $arg->linkpatt  = $arg->nofollow ? str_replace('<a ','<a rel="nofollow"', $mark['linkpatt']) : $mark['linkpatt'];
-            $arg->sep      .= $mark['sep_after']."\n";
-        }
+	wp_register_style('dd',get_template_directory_uri().'/css/style-dd.css');
+	wp_enqueue_style('dd');
 
-        $linkpatt = $arg->linkpatt; // упростим
+	wp_register_style('df',get_template_directory_uri().'/css/style-df.css');
+	wp_enqueue_style('df');
 
-        $q_obj = get_queried_object();
+	wp_register_style('dg',get_template_directory_uri().'/css/style-dg.css');
+	wp_enqueue_style('dg');
 
-        // может это архив пустой таксы?
-        $ptype = null;
-        if( empty($post) ){
-            if( isset($q_obj->taxonomy) )
-                $ptype = & $wp_post_types[ get_taxonomy($q_obj->taxonomy)->object_type[0] ];
-        }
-        else $ptype = & $wp_post_types[ $post->post_type ];
+	wp_register_style('dh',get_template_directory_uri().'/css/style-dh.css');
+	wp_enqueue_style('dh');
 
-        // paged
-        $arg->pg_end = '';
-        if( ($paged_num = get_query_var('paged')) || ($paged_num = get_query_var('page')) )
-            $arg->pg_end = $sep . sprintf( $loc->paged, (int) $paged_num );
+	wp_register_style('dj',get_template_directory_uri().'/css/style-dj.css');
+	wp_enqueue_style('dj');
 
-        $pg_end = $arg->pg_end; // упростим
-
-        // ну, с богом...
-        $out = '';
-
-        if( is_front_page() ){
-            return $arg->on_front_page ? sprintf( $wrappatt, ( $paged_num ? sprintf($linkpatt, get_home_url(), $loc->home) . $pg_end : $loc->home ) ) : '';
-        }
-        // страница записей, когда для главной установлена отдельная страница.
-        elseif( is_home() ) {
-            $out = $paged_num ? ( sprintf( $linkpatt, get_permalink($q_obj), esc_html($q_obj->post_title) ) . $pg_end ) : esc_html($q_obj->post_title);
-        }
-        elseif( is_404() ){
-            $out = $loc->_404;
-        }
-        elseif( is_search() ){
-            $out = sprintf( $loc->search, esc_html( $GLOBALS['s'] ) );
-        }
-        elseif( is_author() ){
-            $tit = sprintf( $loc->author, esc_html($q_obj->display_name) );
-            $out = ( $paged_num ? sprintf( $linkpatt, get_author_posts_url( $q_obj->ID, $q_obj->user_nicename ) . $pg_end, $tit ) : $tit );
-        }
-        elseif( is_year() || is_month() || is_day() ){
-            $y_url  = get_year_link( $year = get_the_time('Y') );
-
-            if( is_year() ){
-                $tit = sprintf( $loc->year, $year );
-                $out = ( $paged_num ? sprintf($linkpatt, $y_url, $tit) . $pg_end : $tit );
-            }
-            // month day
-            else {
-                $y_link = sprintf( $linkpatt, $y_url, $year);
-                $m_url  = get_month_link( $year, get_the_time('m') );
-
-                if( is_month() ){
-                    $tit = sprintf( $loc->month, get_the_time('F') );
-                    $out = $y_link . $sep . ( $paged_num ? sprintf( $linkpatt, $m_url, $tit ) . $pg_end : $tit );
-                }
-                elseif( is_day() ){
-                    $m_link = sprintf( $linkpatt, $m_url, get_the_time('F'));
-                    $out = $y_link . $sep . $m_link . $sep . get_the_time('l');
-                }
-            }
-        }
-        // Древовидные записи
-        elseif( is_singular() && $ptype->hierarchical ){
-            $out = $this->_add_title( $this->_page_crumbs($post), $post );
-        }
-        // Таксы, плоские записи и вложения
-        else {
-            $term = $q_obj; // таксономии
-
-            // определяем термин для записей (включая вложения attachments)
-            if( is_singular() ){
-                // изменим $post, чтобы определить термин родителя вложения
-                if( is_attachment() && $post->post_parent ){
-                    $save_post = $post; // сохраним
-                    $post = get_post($post->post_parent);
-                }
-
-                // учитывает если вложения прикрепляются к таксам древовидным - все бывает :)
-                $taxonomies = get_object_taxonomies( $post->post_type );
-                // оставим только древовидные и публичные, мало ли...
-                $taxonomies = array_intersect( $taxonomies, get_taxonomies( array('hierarchical' => true, 'public' => true) ) );
-
-                if( $taxonomies ){
-                    // сортируем по приоритету
-                    if( ! empty($arg->priority_tax) ){
-                        usort( $taxonomies, function($a,$b)use($arg){
-                            $a_index = array_search($a, $arg->priority_tax);
-                            if( $a_index === false ) $a_index = 9999999;
-
-                            $b_index = array_search($b, $arg->priority_tax);
-                            if( $b_index === false ) $b_index = 9999999;
-
-                            return ( $b_index === $a_index ) ? 0 : ( $b_index < $a_index ? 1 : -1 ); // меньше индекс - выше
-                        } );
-                    }
-
-                    // пробуем получить термины, в порядке приоритета такс
-                    foreach( $taxonomies as $taxname ){
-                        if( $terms = get_the_terms( $post->ID, $taxname ) ){
-                            // проверим приоритетные термины для таксы
-                            $prior_terms = & $arg->priority_terms[ $taxname ];
-                            if( $prior_terms && count($terms) > 2 ){
-                                foreach( (array) $prior_terms as $term_id ){
-                                    $filter_field = is_numeric($term_id) ? 'term_id' : 'slug';
-                                    $_terms = wp_list_filter( $terms, array($filter_field=>$term_id) );
-
-                                    if( $_terms ){
-                                        $term = array_shift( $_terms );
-                                        break;
-                                    }
-                                }
-                            }
-                            else
-                                $term = array_shift( $terms );
-
-                            break;
-                        }
-                    }
-                }
-
-                if( isset($save_post) ) $post = $save_post; // вернем обратно (для вложений)
-            }
-
-            // вывод
-
-            // все виды записей с терминами или термины
-            if( $term && isset($term->term_id) ){
-                $term = apply_filters('kama_breadcrumbs_term', $term );
-
-                // attachment
-                if( is_attachment() ){
-                    if( ! $post->post_parent )
-                        $out = sprintf( $loc->attachment, esc_html($post->post_title) );
-                    else {
-                        if( ! $out = apply_filters('attachment_tax_crumbs', '', $term, $this ) ){
-                            $_crumbs    = $this->_tax_crumbs( $term, 'self' );
-                            $parent_tit = sprintf( $linkpatt, get_permalink($post->post_parent), get_the_title($post->post_parent) );
-                            $_out = implode( $sep, array($_crumbs, $parent_tit) );
-                            $out = $this->_add_title( $_out, $post );
-                        }
-                    }
-                }
-                // single
-                elseif( is_single() ){
-                    if( ! $out = apply_filters('post_tax_crumbs', '', $term, $this ) ){
-                        $_crumbs = $this->_tax_crumbs( $term, 'self' );
-                        $out = $this->_add_title( $_crumbs, $post );
-                    }
-                }
-                // не древовидная такса (метки)
-                elseif( ! is_taxonomy_hierarchical($term->taxonomy) ){
-                    // метка
-                    if( is_tag() )
-                        $out = $this->_add_title('', $term, sprintf( $loc->tag, esc_html($term->name) ) );
-                    // такса
-                    elseif( is_tax() ){
-                        $post_label = $ptype->labels->name;
-                        $tax_label = $GLOBALS['wp_taxonomies'][ $term->taxonomy ]->labels->name;
-                        $out = $this->_add_title('', $term, sprintf( $loc->tax_tag, $post_label, $tax_label, esc_html($term->name) ) );
-                    }
-                }
-                // древовидная такса (рибрики)
-                else {
-                    if( ! $out = apply_filters('term_tax_crumbs', '', $term, $this ) ){
-                        $_crumbs = $this->_tax_crumbs( $term, 'parent' );
-                        $out = $this->_add_title( $_crumbs, $term, esc_html($term->name) );                     
-                    }
-                }
-            }
-            // влоежния от записи без терминов
-            elseif( is_attachment() ){
-                $parent = get_post($post->post_parent);
-                $parent_link = sprintf( $linkpatt, get_permalink($parent), esc_html($parent->post_title) );
-                $_out = $parent_link;
-
-                // вложение от записи древовидного типа записи
-                if( is_post_type_hierarchical($parent->post_type) ){
-                    $parent_crumbs = $this->_page_crumbs($parent);
-                    $_out = implode( $sep, array( $parent_crumbs, $parent_link ) );
-                }
-
-                $out = $this->_add_title( $_out, $post );
-            }
-            // записи без терминов
-            elseif( is_singular() ){
-                $out = $this->_add_title( '', $post );
-            }
-        }
-
-        // замена ссылки на архивную страницу для типа записи
-        $home_after = apply_filters('kama_breadcrumbs_home_after', '', $linkpatt, $sep, $ptype );
-
-        if( '' === $home_after ){
-            // Ссылка на архивную страницу типа записи для: отдельных страниц этого типа; архивов этого типа; таксономий связанных с этим типом.
-            if( $ptype && $ptype->has_archive && ! in_array( $ptype->name, array('post','page','attachment') )
-                && ( is_post_type_archive() || is_singular() || (is_tax() && in_array($term->taxonomy, $ptype->taxonomies)) )
-            ){
-                $pt_title = $ptype->labels->name;
-
-                // первая страница архива типа записи
-                if( is_post_type_archive() && ! $paged_num )
-                    $home_after = $pt_title;
-                // singular, paged post_type_archive, tax
-                else{
-                    $home_after = sprintf( $linkpatt, get_post_type_archive_link($ptype->name), $pt_title );
-
-                    $home_after .= ( ($paged_num && ! is_tax()) ? $pg_end : $sep ); // пагинация
-                }
-            }
-        }
-
-        $before_out = sprintf( $linkpatt, home_url(), $loc->home ) . ( $home_after ? $sep.$home_after : ($out ? $sep : '') );
-
-        $out = apply_filters('kama_breadcrumbs_pre_out', $out, $sep, $loc, $arg );
-
-        $out = sprintf( $wrappatt, $before_out . $out );
-
-        return apply_filters('kama_breadcrumbs', $out, $sep, $loc, $arg );
-    }
-
-    function _page_crumbs( $post ){
-        $parent = $post->post_parent;
-
-        $crumbs = array();
-        while( $parent ){
-            $page = get_post( $parent );
-            $crumbs[] = sprintf( $this->arg->linkpatt, get_permalink($page), esc_html($page->post_title) );
-            $parent = $page->post_parent;
-        }
-
-        return implode( $this->arg->sep, array_reverse($crumbs) );
-    }
-
-    function _tax_crumbs( $term, $start_from = 'self' ){
-        $termlinks = array();
-        $term_id = ($start_from === 'parent') ? $term->parent : $term->term_id;
-        while( $term_id ){
-            $term       = get_term( $term_id, $term->taxonomy );
-            $termlinks[] = sprintf( $this->arg->linkpatt, get_term_link($term), esc_html($term->name) );
-            $term_id    = $term->parent;
-        }
-
-        if( $termlinks )
-            return implode( $this->arg->sep, array_reverse($termlinks) ) /*. $this->arg->sep*/;
-        return '';
-    }
-
-    // добалвяет заголовок к переданному тексту, с учетом всех опций. Добавляет разделитель в начало, если надо.
-    function _add_title( $add_to, $obj, $term_title = '' ){
-        $arg = & $this->arg; // упростим...
-        $title = $term_title ? $term_title : esc_html($obj->post_title); // $term_title чиститься отдельно, теги моугт быть...
-        $show_title = $term_title ? $arg->show_term_title : $arg->show_post_title;
-
-        // пагинация
-        if( $arg->pg_end ){
-            $link = $term_title ? get_term_link($obj) : get_permalink($obj);
-            $add_to .= ($add_to ? $arg->sep : '') . sprintf( $arg->linkpatt, $link, $title ) . $arg->pg_end;
-        }
-        // дополняем - ставим sep
-        elseif( $add_to ){
-            if( $show_title )
-                $add_to .= $arg->sep . sprintf( $arg->title_patt, $title );
-            elseif( $arg->last_sep )
-                $add_to .= $arg->sep;
-        }
-        // sep будет потом...
-        elseif( $show_title )
-            $add_to = sprintf( $arg->title_patt, $title );
-
-        return $add_to;
-    }
+	wp_register_style('di',get_template_directory_uri().'/css/style-di.css');
+	wp_enqueue_style('di');
 
 }
+add_action('wp_enqueue_scripts', 'register_styles');
+/*
+function load_my_script(){
+	//wp_register_script('jquery', get_template_directory_uri().
+	//'/libs/jquery/jquery-1.11.1.min.js');
+	//wp_enqueue_scripts('jquery');
+	/*
+	wp_deregister_script('carousel');
+	wp_register_script('jquery', get_template_directory_uri().
+	'libs/owl.carousel/owl.carousel.js');
+	wp_enqueue_scripts('carousel');
 
-/**
- * Изменения:
- * 3.3 - новые хуки: attachment_tax_crumbs, post_tax_crumbs, term_tax_crumbs. Позволяют дополнить крошки таксономий.
- * 3.2 - баг с разделителем, с отключенным 'show_term_title'. Стабилизировал логику.
- * 3.1 - баг с esc_html() для заголовка терминов - с тегами получалось криво...
- * 3.0 - Обернул в класс. Добавил опции: 'title_patt', 'last_sep'. Доработал код. Добавил пагинацию для постов.
- * 2.5 - ADD: Опция 'show_term_title'
- * 2.4 - Мелкие правки кода
- * 2.3 - ADD: Страница записей, когда для главной установлена отделенная страница.
- * 2.2 - ADD: Link to post type archive on taxonomies page
- * 2.1 - ADD: $sep, $loc, $args params to hooks
- * 2.0 - ADD: в фильтр 'kama_breadcrumbs_home_after' добавлен четвертый аргумент $ptype
- * 1.9 - ADD: фильтр 'kama_breadcrumbs_default_loc' для изменения локализации по умолчанию
- * 1.8 - FIX: заметки, когда в рубрике нет записей
- * 1.7 - Улучшена работа с приоритетными таксономиями.
- */ ?>
+	wp_deregister_script('fancybox');
+	wp_register_script('jquery', get_template_directory_uri().
+	'libs/fancybox/jquery.fancybox.pack.js');
+	wp_enqueue_scripts('fancybox');
+
+	wp_deregister_script('maskedinput');
+	wp_register_script('jquery', get_template_directory_uri().
+	'js/jquery.maskedinput.min.js');
+	wp_enqueue_scripts('maskedinput');
+
+	wp_deregister_script('common');
+	wp_register_script('jquery', get_template_directory_uri().
+	'js/common.js');
+	wp_enqueue_scripts('fancybox');
+
+	wp_deregister_script('outerstyles');
+	wp_register_script('jquery', get_template_directory_uri().
+	'js/outerstyles.js');
+	wp_enqueue_scripts('outerstyles');
+}
+//add_action('wp_enqueue_scripts', 'load_my_script');
+*/
+// function wpb_adding_scripts() {
+// 	wp_deregister_script('jquery');
+// 	wp_register_script('jquery', get_template_directory_uri() . '/libs/jquery/jquery-1.11.1.min.js');
+// 	wp_enqueue_script('jquery');
+
+// 	wp_register_script('carousel', get_template_directory_uri() . '/libs/owl.carousel/owl.carousel.js', array ('jquery'), null, false);
+// 	wp_enqueue_script('carousel');
+
+// 	wp_register_script('fancybox', get_template_directory_uri() . '/libs/fancybox/jquery.fancybox.pack.js', array ('jquery'), null, false);
+// 	wp_enqueue_script('fancybox');
+
+// 	wp_register_script('maskedinput', get_template_directory_uri() . '/js/jquery.maskedinput.min.js', array ('jquery'), null, false);
+// 	wp_enqueue_script('maskedinput');
+
+// 	wp_register_script('outerstyles', get_template_directory_uri() . '/js/outerstyles.js', array ('jquery'), null, false);
+// 	wp_enqueue_script('outerstyles');
+
+// 	wp_register_script('common', get_template_directory_uri() . '/js/common.js', array ('jquery'), null, false);
+// 	wp_enqueue_script('common');
+// }
+// add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
+
+
+// function my_scripts_method(){
+// 	wp_enqueue_script( 'common', get_template_directory_uri() . 'common.js');
+//     wp_enqueue_script('common');
+// }
+// add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
+function wws_adding_scripts() {
+wp_register_script('jquery-c', get_template_directory_uri() . '/libs/jquery/jquery-1.11.1.min.js', array('jquery'));
+wp_enqueue_script('jquery-c');
+
+wp_register_script('common', get_template_directory_uri() . 'js/common.js', array('jquery'));
+wp_enqueue_script('common');
+}
+add_action( 'wp_enqueue_scripts', 'wws_adding_scripts' );

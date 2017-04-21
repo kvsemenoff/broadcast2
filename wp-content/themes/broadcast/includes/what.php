@@ -4,62 +4,62 @@
 			<div id="whattodo__owl_slider">
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 			</div>
