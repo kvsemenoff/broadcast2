@@ -1,4 +1,4 @@
-﻿<div class="modal modal__form" id="modal__form">
+<div class="modal modal__form" id="modal__form">
   <div class="modal__inner clearfix">
 		<div class="modal__in modal__in_left">
 			<h2 class="h2_theme_rosa h2_pink whattodo__topcaption">Получите КП и смету</h2>

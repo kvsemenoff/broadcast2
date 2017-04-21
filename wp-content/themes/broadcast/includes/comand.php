@@ -15,62 +15,62 @@
 			<div id="command__owl_carousel">
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 			</div>

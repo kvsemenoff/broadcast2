@@ -23,10 +23,10 @@
 define('DB_NAME', 'broadcast');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'mysql');
+define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'mysql');
+define('DB_PASSWORD', '');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -63,7 +63,7 @@ define('NONCE_SALT',       ';Ckv(Bjo)Kn-F+mA_qN`CBw,(N a^U+aJUHJ>!08cvS[nxN%ijx]
  * Можно установить несколько сайтов в одну базу данных, если использовать
  * разные префиксы. Пожалуйста, указывайте только цифры, буквы и знак подчеркивания.
  */
-$table_prefix  = 'wp_broadcast';
+$table_prefix  = 'wp_';
 
 /**
  * Для разработчиков: Режим отладки WordPress.
