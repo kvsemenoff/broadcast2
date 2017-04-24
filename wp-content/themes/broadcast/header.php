@@ -47,67 +47,7 @@
 							);
 						wp_nav_menu($args ); 
 						?>
-							<!--<li>
-								<ul class="clearfix">
-									<li><a class="mobile-nav-active" href="#">Главная</a></li>
-									<li><a href="#">Услуги</a></li>
-									<li><a href="#">Проекты</a></li>
-									<li><a href="#">Команда</a></li>
-									<li><a href="#">Контакты</a></li>
-								</ul>
-							</li>
-							<li class="point-active">
-								<a href="#">Главная</a>
-								<ul>
-									<li><a href="#"><span>Онлайн трансляции</span></a></li>
-									<li><a href="#">Онлайн трансляции в интернет</a></li>
-									<li><a href="#">Трансляции на экран</a></li>
-									<li><a href="#">Проведение телемостов</a></li>
-									<li><a href="#">Платные видеотрансляции</a></li>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-									<li><a href="#">Съемка концертов</a></li>
-									<li><a href="#">Съемка лекций и семинаров</a></li>
-									<li><a href="#">Съемка презентаций</a></li>
-									<li><a href="#">Съемка спортивных мероприятий</a></li>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Услуги</a>
-								<ul>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-									<li><a href="#">Съемка лекций и семинаров</a></li>
-									<li><a href="#">Съемка презентаций</a></li>
-									<li><a href="#">Съемка спортивных мероприятий</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Проекты</a>
-								<ul>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-									<li><a href="#">Онлайн трансляции в интернет</a></li>
-									<li><a href="#">Съемка спортивных мероприятий</a></li>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Команда</a>
-								<ul>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-									<li><a href="#">Онлайн трансляции в интернет</a></li>
-									<li><a href="#">Съемка спортивных мероприятий</a></li>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Контакты</a>
-								<ul>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-									<li><a href="#">Онлайн трансляции в интернет</a></li>
-									<li><a href="#">Трансляции на экран</a></li>
-									<li><a href="#">Проведение телемостов</a></li>
-								</ul>
-							</li> -->
+
 						</ul>
 					</nav>
 				</div>
@@ -145,69 +85,26 @@
 						<i class="menu-button__bg menu-button__bg_bot"></i>
 					</div>
 					<nav class="menu">
-						<ul class="main-menu clearfix">
-							<li>
-								<ul class="clearfix">
-									<li><a class="mobile-nav-active" href="#">Главная</a></li>
-									<li><a href="#">Услуги</a></li>
-									<li><a href="#">Проекты</a></li>
-									<li><a href="#">Команда</a></li>
-									<li><a href="#">Контакты</a></li>
-								</ul>
-							</li>
-							<li class="point-active">
-								<a href="#">Главная</a>
-								<ul>
-									<li><a href="#"><span>Онлайн трансляции</span></a></li>
-									<li><a href="#"">Онлайн трансляции в интернет</a></li>
-									<li><a href="#"">Трансляции на экран</a></li>
-									<li><a href="#"">Проведение телемостов</a></li>
-									<li><a href="#"">Платные видеотрансляции</a></li>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-									<li><a href="#"">Съемка концертов</a></li>
-									<li><a href="#"">Съемка лекций и семинаров</a></li>
-									<li><a href="#"">Съемка презентаций</a></li>
-									<li><a href="#"">Съемка спортивных мероприятий</a></li>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Услуги</a>
-								<ul>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-									<li><a href="#"">Съемка лекций и семинаров</a></li>
-									<li><a href="#"">Съемка презентаций</a></li>
-									<li><a href="#"">Съемка спортивных мероприятий</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Проекты</a>
-								<ul>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-									<li><a href="#"">Онлайн трансляции в интернет</a></li>
-									<li><a href="#"">Съемка спортивных мероприятий</a></li>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Команда</a>
-								<ul>
-									<li><a href="#"><span>Аренда ПТС</span></a></li>
-									<li><a href="#"">Онлайн трансляции в интернет</a></li>
-									<li><a href="#"">Съемка спортивных мероприятий</a></li>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">Контакты</a>
-								<ul>
-									<li><a href="#"><span>Многокамерная видеосъемка</span></a></li>
-									<li><a href="#"">Онлайн трансляции в интернет</a></li>
-									<li><a href="#"">Трансляции на экран</a></li>
-									<li><a href="#"">Проведение телемостов</a></li>
-								</ul>
-							</li>
-						</ul>
+						<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Главное меню', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu clearfix">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 					</nav>
 				</div>
 				<div class="top-line__phone clearfix">

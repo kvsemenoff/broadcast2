@@ -1,7 +1,12 @@
-<?php require_once('includes/header.php'); ?>
-<?php require_once('includes/header-top_inner.php'); ?>
+<?php
+/*
+Template Name: Услуги
+*/
+?>
 
-<div class="aero-top">
+<!-- Здесь html/php код шаблона -->
+<?php get_header(); ?>
+	<div class="aero-top">
 	<div class="container clearfix">
 		<div class="aero-sidebar">
 			<span class="aero-top__bg">Онлайнтрансляция</span>
@@ -50,7 +55,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 
 <div class="price_aero price_aero_theme_rosa">
 	<div class="aero__container aero__container__theme_rosa">
@@ -220,9 +224,4 @@
 		</div>
 	</div>	
 </div>
-
-<?php require_once('includes/popup.php'); ?>
-<?php require_once('includes/footer.php'); ?>
-
-</body>
-</html>
+<?php get_footer(); ?>

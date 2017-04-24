@@ -7,62 +7,62 @@
 			<div id="whattodo__owl_slider">
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="whattodo__img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -108,22 +108,22 @@
     <h2 class="h2 h2_theme_rosa h2_pink h2_extra">Дополнительные возможности</h2>
     <p class="extra_subtitle">Только за прошлый год мы организовали более 50 онлайн-трансляций в Москве, Санкт-Петербурге и регионах. Среди наших клиентов десятки крупных компаний. Присоединяйтесь!</p>
     <div class="extra_img hidden-sm hidden-xs hidden-lg">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/tablet-medium.png" alt="" class="extra_image">
+      <img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/tablet-medium.png" alt="" class="extra_image">
     </div>
     <div class="row extra_items_row col-lg-4 extra_large">
-      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/img/adaptive-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Адаптивный интерфейс, подходящий для любого сайта</p></div>
-      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/img/player-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Брендированный плеер
+      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/adaptive-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Адаптивный интерфейс, подходящий для любого сайта</p></div>
+      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/player-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Брендированный плеер
   с логотипом вашей компании</p></div>
-      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/img/movie-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Графическое оформление
+      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/movie-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Графическое оформление
   плеера - титры, бегущая строка</p></div>
     </div>
     <div class="col-lg-4 extra_img hidden-sm hidden-xs hidden-md">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/tablet-largepng.png" alt="" class="extra_image">
+      <img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/tablet-largepng.png" alt="" class="extra_image">
     </div>
     <div class="row col-lg-4 extra_large extra_large_last">
-      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/img/networking-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Неограниченное количество подключенных участников</p></div>
-      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/img/wallet-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Регистрация, возможность реализации платных трансляций</p></div>
-      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/img/message-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Возможность для интерактива - чаты, опросы, голосования</p></div>
+      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/networking-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Неограниченное количество подключенных участников</p></div>
+      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/wallet-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Регистрация, возможность реализации платных трансляций</p></div>
+      <div class="extra_item col-md-4 col-lg-12"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/message-m.png" alt="" class="extra_item_img"><p class="extra_item_text">Возможность для интерактива - чаты, опросы, голосования</p></div>
     </div>
     <div class="col-md-12 extra_platforms">
       <p class="extra_platforms_watch">Просмотр трансляции на любой платформе:</p>
@@ -197,62 +197,62 @@
 			<div id="command__owl_carousel">
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="command__slider_img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
+						<img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/slidercommand.jpg" alt="">
 					</div>
 				</div>
 			</div>
@@ -271,16 +271,16 @@
 	<div class="container">
 		<h2 class="h2_theme_rosa h2_pink whattodo__topcaption">Наши заказчики</h2>
 		<div class="our__customer customer">
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/herbalife-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/ros-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/rzd-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/remar-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tvch-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tricolor-meidum.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/rostelecom-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/main-division.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/eco-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/bm-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/herbalife-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/ros-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/rzd-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/remar-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/tvch-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/tricolor-meidum.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/rostelecom-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/main-division.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/eco-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/<?php echo get_template_directory_uri(); ?>/img/bm-medium.png" alt=""></a>
 		</div>
 	</div>	
 </div>
