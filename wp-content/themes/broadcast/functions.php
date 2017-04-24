@@ -11,7 +11,16 @@ register_nav_menus(array(
     'Нижнее меню 2' => 'Нижнее меню 2'
 
 ));
-
+register_sidebar( array(
+        'name'          => 'aeroSidebar',
+        'id'            => 'aerosidebar',
+        'description'   => '',
+        'class'         => '',
+        'before_widget' => '<div class="aero-sidebar">',
+        'after_widget'  => '</div>\n',
+        'before_title'  => '<span class="aero-top__bg">',
+        'after_title'   => '</span>\n',
+    ) );
 add_theme_support('menus');
 
 add_theme_support( 'post-thumbnails' );

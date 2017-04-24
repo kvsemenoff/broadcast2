@@ -55,6 +55,7 @@ Template Name: Услуги
 			</div>
 		</div>
 	</div>
+</div>
 
 <div class="price_aero price_aero_theme_rosa">
 	<div class="aero__container aero__container__theme_rosa">
