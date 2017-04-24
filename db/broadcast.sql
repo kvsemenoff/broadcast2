@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 24 2017 г., 17:53
+-- Время создания: Апр 24 2017 г., 19:48
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -208,7 +208,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (102, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (103, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (104, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(105, 'cron', 'a:4:{i:1493046029;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1493084984;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1493128200;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
+(105, 'cron', 'a:4:{i:1493084984;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1493128200;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1493132429;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'theme_mods_twentyseventeen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1492783460;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
 (110, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:65:\"https://downloads.wordpress.org/release/ru_RU/wordpress-4.7.4.zip\";s:6:\"locale\";s:5:\"ru_RU\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:65:\"https://downloads.wordpress.org/release/ru_RU/wordpress-4.7.4.zip\";s:10:\"no_content\";b:0;s:11:\"new_bundled\";b:0;s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.7.4\";s:7:\"version\";s:5:\"4.7.4\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1493042964;s:15:\"version_checked\";s:5:\"4.7.4\";s:12:\"translations\";a:0:{}}', 'no'),
 (112, '_site_transient_update_plugins', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1493042969;s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:3:{s:30:\"advanced-custom-fields/acf.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:36:\"w.org/plugins/advanced-custom-fields\";s:4:\"slug\";s:22:\"advanced-custom-fields\";s:6:\"plugin\";s:30:\"advanced-custom-fields/acf.php\";s:11:\"new_version\";s:6:\"4.4.11\";s:3:\"url\";s:53:\"https://wordpress.org/plugins/advanced-custom-fields/\";s:7:\"package\";s:72:\"https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.11.zip\";}s:19:\"akismet/akismet.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:3:\"3.3\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:54:\"https://downloads.wordpress.org/plugin/akismet.3.3.zip\";}s:9:\"hello.php\";O:8:\"stdClass\":6:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";}}}', 'no'),
@@ -217,7 +217,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (117, '_site_transient_browser_43e3959d25637efe9b68fae476c6453e', 'a:9:{s:8:\"platform\";s:7:\"Windows\";s:4:\"name\";s:7:\"Firefox\";s:7:\"version\";s:4:\"52.0\";s:10:\"update_url\";s:23:\"http://www.firefox.com/\";s:7:\"img_src\";s:50:\"http://s.wordpress.org/images/browsers/firefox.png\";s:11:\"img_src_ssl\";s:49:\"https://wordpress.org/images/browsers/firefox.png\";s:15:\"current_version\";s:2:\"16\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}', 'no'),
 (119, 'can_compress_scripts', '1', 'no'),
 (136, 'current_theme', '', 'yes'),
-(137, 'theme_mods_broadcast', 'a:3:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:1:{s:4:\"menu\";i:2;}}', 'yes'),
+(137, 'theme_mods_broadcast', 'a:3:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:1:{s:23:\"Нижнее меню 2\";i:4;}}', 'yes'),
 (138, 'theme_switched', '', 'yes'),
 (153, '_site_transient_timeout_theme_roots', '1493044765', 'no'),
 (154, '_site_transient_theme_roots', 'a:4:{s:9:\"Broadcast\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
@@ -330,7 +330,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (83, 36, '_menu_item_target', ''),
 (84, 36, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (85, 36, '_menu_item_xfn', ''),
-(86, 36, '_menu_item_url', 'http://#'),
+(86, 36, '_menu_item_url', '/#projects'),
 (88, 37, '_menu_item_type', 'custom'),
 (89, 37, '_menu_item_menu_item_parent', '0'),
 (90, 37, '_menu_item_object_id', '37'),
@@ -338,7 +338,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (92, 37, '_menu_item_target', ''),
 (93, 37, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (94, 37, '_menu_item_xfn', ''),
-(95, 37, '_menu_item_url', 'http://#'),
+(95, 37, '_menu_item_url', '/#command'),
 (97, 38, '_menu_item_type', 'post_type'),
 (98, 38, '_menu_item_menu_item_parent', '35'),
 (99, 38, '_menu_item_object_id', '30'),
@@ -407,14 +407,98 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (169, 50, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (170, 50, '_menu_item_xfn', ''),
 (171, 50, '_menu_item_url', ''),
-(173, 51, '_menu_item_type', 'custom'),
-(174, 51, '_menu_item_menu_item_parent', '0'),
-(175, 51, '_menu_item_object_id', '51'),
-(176, 51, '_menu_item_object', 'custom'),
-(177, 51, '_menu_item_target', ''),
-(178, 51, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
-(179, 51, '_menu_item_xfn', ''),
-(180, 51, '_menu_item_url', 'http://broadcast2.loc');
+(191, 53, '_menu_item_type', 'custom'),
+(192, 53, '_menu_item_menu_item_parent', '0'),
+(193, 53, '_menu_item_object_id', '53'),
+(194, 53, '_menu_item_object', 'custom'),
+(195, 53, '_menu_item_target', ''),
+(196, 53, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(197, 53, '_menu_item_xfn', ''),
+(198, 53, '_menu_item_url', '/'),
+(200, 54, '_menu_item_type', 'custom'),
+(201, 54, '_menu_item_menu_item_parent', '0'),
+(202, 54, '_menu_item_object_id', '54'),
+(203, 54, '_menu_item_object', 'custom'),
+(204, 54, '_menu_item_target', ''),
+(205, 54, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(206, 54, '_menu_item_xfn', ''),
+(207, 54, '_menu_item_url', 'http://broadcast2.loc'),
+(209, 55, '_menu_item_type', 'custom'),
+(210, 55, '_menu_item_menu_item_parent', '35'),
+(211, 55, '_menu_item_object_id', '55'),
+(212, 55, '_menu_item_object', 'custom'),
+(213, 55, '_menu_item_target', ''),
+(214, 55, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(215, 55, '_menu_item_xfn', ''),
+(216, 55, '_menu_item_url', 'http://#'),
+(218, 56, '_menu_item_type', 'custom'),
+(219, 56, '_menu_item_menu_item_parent', '35'),
+(220, 56, '_menu_item_object_id', '56'),
+(221, 56, '_menu_item_object', 'custom'),
+(222, 56, '_menu_item_target', ''),
+(223, 56, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(224, 56, '_menu_item_xfn', ''),
+(225, 56, '_menu_item_url', 'http://#'),
+(227, 57, '_menu_item_type', 'custom'),
+(228, 57, '_menu_item_menu_item_parent', '35'),
+(229, 57, '_menu_item_object_id', '57'),
+(230, 57, '_menu_item_object', 'custom'),
+(231, 57, '_menu_item_target', ''),
+(232, 57, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(233, 57, '_menu_item_xfn', ''),
+(234, 57, '_menu_item_url', 'http://#'),
+(236, 58, '_menu_item_type', 'custom'),
+(237, 58, '_menu_item_menu_item_parent', '0'),
+(238, 58, '_menu_item_object_id', '58'),
+(239, 58, '_menu_item_object', 'custom'),
+(240, 58, '_menu_item_target', ''),
+(241, 58, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(242, 58, '_menu_item_xfn', ''),
+(243, 58, '_menu_item_url', 'http://broadcast2.loc/'),
+(245, 59, '_menu_item_type', 'custom'),
+(246, 59, '_menu_item_menu_item_parent', '0'),
+(247, 59, '_menu_item_object_id', '59'),
+(248, 59, '_menu_item_object', 'custom'),
+(249, 59, '_menu_item_target', ''),
+(250, 59, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(251, 59, '_menu_item_xfn', ''),
+(252, 59, '_menu_item_url', '/#command'),
+(254, 60, '_menu_item_type', 'custom'),
+(255, 60, '_menu_item_menu_item_parent', '0'),
+(256, 60, '_menu_item_object_id', '60'),
+(257, 60, '_menu_item_object', 'custom'),
+(258, 60, '_menu_item_target', ''),
+(259, 60, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(260, 60, '_menu_item_xfn', ''),
+(261, 60, '_menu_item_url', '/#projects'),
+(263, 61, '_edit_last', '1'),
+(264, 61, '_edit_lock', '1493047519:1'),
+(265, 63, '_edit_last', '1'),
+(266, 63, '_edit_lock', '1493047529:1'),
+(267, 65, '_menu_item_type', 'post_type'),
+(268, 65, '_menu_item_menu_item_parent', '0'),
+(269, 65, '_menu_item_object_id', '63'),
+(270, 65, '_menu_item_object', 'page'),
+(271, 65, '_menu_item_target', ''),
+(272, 65, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(273, 65, '_menu_item_xfn', ''),
+(274, 65, '_menu_item_url', ''),
+(276, 66, '_menu_item_type', 'post_type'),
+(277, 66, '_menu_item_menu_item_parent', '0'),
+(278, 66, '_menu_item_object_id', '61'),
+(279, 66, '_menu_item_object', 'page'),
+(280, 66, '_menu_item_target', ''),
+(281, 66, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(282, 66, '_menu_item_xfn', ''),
+(283, 66, '_menu_item_url', ''),
+(285, 67, '_menu_item_type', 'post_type'),
+(286, 67, '_menu_item_menu_item_parent', '0'),
+(287, 67, '_menu_item_object_id', '13'),
+(288, 67, '_menu_item_object', 'page'),
+(289, 67, '_menu_item_target', ''),
+(290, 67, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
+(291, 67, '_menu_item_xfn', ''),
+(292, 67, '_menu_item_url', '');
 
 -- --------------------------------------------------------
 
@@ -467,7 +551,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (12, 1, '2017-04-24 17:30:05', '2017-04-24 14:30:05', '', 'Услуги', '', 'inherit', 'closed', 'closed', '', '11-revision-v1', '', '', '2017-04-24 17:30:05', '2017-04-24 14:30:05', '', 11, 'http://broadcast2.loc/2017/04/24/11-revision-v1/', 0, 'revision', '', 0),
 (13, 1, '2017-04-24 17:30:35', '2017-04-24 14:30:35', '', 'Контакты', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b', '', '', '2017-04-24 17:30:51', '2017-04-24 14:30:51', '', 0, 'http://broadcast2.loc/?page_id=13', 0, 'page', '', 0),
 (14, 1, '2017-04-24 17:30:35', '2017-04-24 14:30:35', '', 'Контакты', '', 'inherit', 'closed', 'closed', '', '13-revision-v1', '', '', '2017-04-24 17:30:35', '2017-04-24 14:30:35', '', 13, 'http://broadcast2.loc/2017/04/24/13-revision-v1/', 0, 'revision', '', 0),
-(15, 1, '2017-04-24 17:32:12', '2017-04-24 14:32:12', ' ', '', '', 'publish', 'closed', 'closed', '', '15', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=15', 13, 'nav_menu_item', '', 0),
+(15, 1, '2017-04-24 17:32:12', '2017-04-24 14:32:12', ' ', '', '', 'publish', 'closed', 'closed', '', '15', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=15', 17, 'nav_menu_item', '', 0),
 (18, 1, '2017-04-24 17:38:51', '2017-04-24 14:38:51', '', 'Онлайн трансляции в интернет', '', 'publish', 'closed', 'closed', '', '%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd-%d1%82%d1%80%d0%b0%d0%bd%d1%81%d0%bb%d1%8f%d1%86%d0%b8%d0%b8-%d0%b2-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bd%d0%b5%d1%82', '', '', '2017-04-24 17:38:51', '2017-04-24 14:38:51', '', 0, 'http://broadcast2.loc/?page_id=18', 0, 'page', '', 0),
 (19, 1, '2017-04-24 17:38:51', '2017-04-24 14:38:51', '', 'Онлайн трансляции в интернет', '', 'inherit', 'closed', 'closed', '', '18-revision-v1', '', '', '2017-04-24 17:38:51', '2017-04-24 14:38:51', '', 18, 'http://broadcast2.loc/2017/04/24/18-revision-v1/', 0, 'revision', '', 0),
 (20, 1, '2017-04-24 17:39:03', '2017-04-24 14:39:03', '', 'Трансляция на экране', '', 'publish', 'closed', 'closed', '', '%d1%82%d1%80%d0%b0%d0%bd%d1%81%d0%bb%d1%8f%d1%86%d0%b8%d1%8f-%d0%bd%d0%b0-%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b5', '', '', '2017-04-24 17:39:03', '2017-04-24 14:39:03', '', 0, 'http://broadcast2.loc/?page_id=20', 0, 'page', '', 0),
@@ -485,23 +569,37 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (32, 1, '2017-04-24 17:41:18', '2017-04-24 14:41:18', '', 'Съемка презентаций', '', 'inherit', 'closed', 'closed', '', '30-revision-v1', '', '', '2017-04-24 17:41:18', '2017-04-24 14:41:18', '', 30, 'http://broadcast2.loc/2017/04/24/30-revision-v1/', 0, 'revision', '', 0),
 (33, 1, '2017-04-24 17:41:39', '2017-04-24 14:41:39', '', 'Съемка спортивных мероприятий', '', 'inherit', 'closed', 'closed', '', '30-revision-v1', '', '', '2017-04-24 17:41:39', '2017-04-24 14:41:39', '', 30, 'http://broadcast2.loc/2017/04/24/30-revision-v1/', 0, 'revision', '', 0),
 (34, 1, '2017-04-24 17:42:18', '0000-00-00 00:00:00', ' ', '', '', 'draft', 'closed', 'closed', '', '', '', '', '2017-04-24 17:42:18', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?p=34', 1, 'nav_menu_item', '', 0),
-(35, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '35', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=35', 2, 'nav_menu_item', '', 0),
-(36, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', '', 'Проекты', '', 'publish', 'closed', 'closed', '', '%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d1%8b', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=36', 11, 'nav_menu_item', '', 0),
-(37, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', '', 'Команда', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bc%d0%b0%d0%bd%d0%b4%d0%b0', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=37', 12, 'nav_menu_item', '', 0),
-(38, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '38', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=38', 10, 'nav_menu_item', '', 0),
-(39, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '39', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=39', 7, 'nav_menu_item', '', 0),
-(40, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '40', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=40', 6, 'nav_menu_item', '', 0),
-(41, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '41', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=41', 5, 'nav_menu_item', '', 0),
-(42, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '42', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=42', 4, 'nav_menu_item', '', 0),
-(43, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '43', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=43', 3, 'nav_menu_item', '', 0),
+(35, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '35', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=35', 3, 'nav_menu_item', '', 0),
+(36, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', '', 'Проекты', '', 'publish', 'closed', 'closed', '', '%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d1%8b', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=36', 15, 'nav_menu_item', '', 0),
+(37, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', '', 'Команда', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bc%d0%b0%d0%bd%d0%b4%d0%b0', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=37', 16, 'nav_menu_item', '', 0),
+(38, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '38', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=38', 13, 'nav_menu_item', '', 0),
+(39, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '39', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=39', 10, 'nav_menu_item', '', 0),
+(40, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '40', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=40', 8, 'nav_menu_item', '', 0),
+(41, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '41', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=41', 7, 'nav_menu_item', '', 0),
+(42, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '42', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=42', 6, 'nav_menu_item', '', 0),
+(43, 1, '2017-04-24 17:44:01', '2017-04-24 14:44:01', ' ', '', '', 'publish', 'closed', 'closed', '', '43', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=43', 5, 'nav_menu_item', '', 0),
 (44, 1, '2017-04-24 17:44:06', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-04-24 17:44:06', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?page_id=44', 0, 'page', '', 0),
 (45, 1, '2017-04-24 17:44:33', '2017-04-24 14:44:33', '', 'Съемка лекций и семинаров', '', 'publish', 'closed', 'closed', '', '%d1%81%d1%8a%d0%b5%d0%bc%d0%ba%d0%b0-%d0%bb%d0%b5%d0%ba%d1%86%d0%b8%d0%b9-%d0%b8-%d1%81%d0%b5%d0%bc%d0%b8%d0%bd%d0%b0%d1%80%d0%be%d0%b2-2', '', '', '2017-04-24 17:44:33', '2017-04-24 14:44:33', '', 0, 'http://broadcast2.loc/?page_id=45', 0, 'page', '', 0),
 (46, 1, '2017-04-24 17:44:33', '2017-04-24 14:44:33', '', 'Съемка лекций и семинаров', '', 'inherit', 'closed', 'closed', '', '45-revision-v1', '', '', '2017-04-24 17:44:33', '2017-04-24 14:44:33', '', 45, 'http://broadcast2.loc/2017/04/24/45-revision-v1/', 0, 'revision', '', 0),
 (47, 1, '2017-04-24 17:44:48', '2017-04-24 14:44:48', '', 'Съемка презентаций', '', 'publish', 'closed', 'closed', '', '%d1%81%d1%8a%d0%b5%d0%bc%d0%ba%d0%b0-%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d0%b9', '', '', '2017-04-24 17:44:48', '2017-04-24 14:44:48', '', 0, 'http://broadcast2.loc/?page_id=47', 0, 'page', '', 0),
 (48, 1, '2017-04-24 17:44:48', '2017-04-24 14:44:48', '', 'Съемка презентаций', '', 'inherit', 'closed', 'closed', '', '47-revision-v1', '', '', '2017-04-24 17:44:48', '2017-04-24 14:44:48', '', 47, 'http://broadcast2.loc/2017/04/24/47-revision-v1/', 0, 'revision', '', 0),
-(49, 1, '2017-04-24 17:45:29', '2017-04-24 14:45:29', ' ', '', '', 'publish', 'closed', 'closed', '', '49', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=49', 8, 'nav_menu_item', '', 0),
-(50, 1, '2017-04-24 17:45:29', '2017-04-24 14:45:29', ' ', '', '', 'publish', 'closed', 'closed', '', '50', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=50', 9, 'nav_menu_item', '', 0),
-(51, 1, '2017-04-24 17:48:18', '2017-04-24 14:48:18', '', 'Главная', '', 'publish', 'closed', 'closed', '', '%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f', '', '', '2017-04-24 17:52:57', '2017-04-24 14:52:57', '', 0, 'http://broadcast2.loc/?p=51', 1, 'nav_menu_item', '', 0);
+(49, 1, '2017-04-24 17:45:29', '2017-04-24 14:45:29', ' ', '', '', 'publish', 'closed', 'closed', '', '49', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=49', 11, 'nav_menu_item', '', 0),
+(50, 1, '2017-04-24 17:45:29', '2017-04-24 14:45:29', ' ', '', '', 'publish', 'closed', 'closed', '', '50', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=50', 12, 'nav_menu_item', '', 0),
+(53, 1, '2017-04-24 18:02:21', '2017-04-24 15:02:21', '', '***', '', 'publish', 'closed', 'closed', '', '53', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=53', 1, 'nav_menu_item', '', 0),
+(54, 1, '2017-04-24 18:02:21', '2017-04-24 15:02:21', '', 'Главная', '', 'publish', 'closed', 'closed', '', '%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=54', 2, 'nav_menu_item', '', 0),
+(55, 1, '2017-04-24 18:05:29', '2017-04-24 15:05:29', '', '<span>Аренда ПТС</span>', '', 'publish', 'closed', 'closed', '', '%d0%b0%d1%80%d0%b5%d0%bd%d0%b4%d0%b0-%d0%bf%d1%82%d1%81', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=55', 14, 'nav_menu_item', '', 0),
+(56, 1, '2017-04-24 18:05:29', '2017-04-24 15:05:29', '', '<span>Многокамерная видеосъемка</span>', '', 'publish', 'closed', 'closed', '', '%d0%bc%d0%bd%d0%be%d0%b3%d0%be%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%bd%d0%b0%d1%8f-%d0%b2%d0%b8%d0%b4%d0%b5%d0%be%d1%81%d1%8a%d0%b5%d0%bc%d0%ba%d0%b0', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=56', 9, 'nav_menu_item', '', 0),
+(57, 1, '2017-04-24 18:05:29', '2017-04-24 15:05:29', '', '<span>Онлайн трансляции</span>', '', 'publish', 'closed', 'closed', '', '%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd-%d1%82%d1%80%d0%b0%d0%bd%d1%81%d0%bb%d1%8f%d1%86%d0%b8%d0%b8', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=57', 4, 'nav_menu_item', '', 0),
+(58, 1, '2017-04-24 18:26:27', '2017-04-24 15:26:27', '', 'Главная', '', 'publish', 'closed', 'closed', '', '%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f-2', '', '', '2017-04-24 18:26:47', '2017-04-24 15:26:47', '', 0, 'http://broadcast2.loc/?p=58', 1, 'nav_menu_item', '', 0),
+(59, 1, '2017-04-24 18:26:27', '2017-04-24 15:26:27', '', 'Команда', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bc%d0%b0%d0%bd%d0%b4%d0%b0-2', '', '', '2017-04-24 18:26:47', '2017-04-24 15:26:47', '', 0, 'http://broadcast2.loc/?p=59', 3, 'nav_menu_item', '', 0),
+(60, 1, '2017-04-24 18:26:27', '2017-04-24 15:26:27', '', 'Проекты', '', 'publish', 'closed', 'closed', '', '%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d1%8b-2', '', '', '2017-04-24 18:26:47', '2017-04-24 15:26:47', '', 0, 'http://broadcast2.loc/?p=60', 2, 'nav_menu_item', '', 0),
+(61, 1, '2017-04-24 18:27:41', '2017-04-24 15:27:41', '', 'Презентация', '', 'publish', 'closed', 'closed', '', '%d0%bf%d1%80%d0%b5%d0%b7%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d1%8f', '', '', '2017-04-24 18:27:41', '2017-04-24 15:27:41', '', 0, 'http://broadcast2.loc/?page_id=61', 0, 'page', '', 0),
+(62, 1, '2017-04-24 18:27:41', '2017-04-24 15:27:41', '', 'Презентация', '', 'inherit', 'closed', 'closed', '', '61-revision-v1', '', '', '2017-04-24 18:27:41', '2017-04-24 15:27:41', '', 61, 'http://broadcast2.loc/2017/04/24/61-revision-v1/', 0, 'revision', '', 0),
+(63, 1, '2017-04-24 18:27:48', '2017-04-24 15:27:48', '', 'Наш блог', '', 'publish', 'closed', 'closed', '', '%d0%bd%d0%b0%d1%88-%d0%b1%d0%bb%d0%be%d0%b3', '', '', '2017-04-24 18:27:48', '2017-04-24 15:27:48', '', 0, 'http://broadcast2.loc/?page_id=63', 0, 'page', '', 0),
+(64, 1, '2017-04-24 18:27:48', '2017-04-24 15:27:48', '', 'Наш блог', '', 'inherit', 'closed', 'closed', '', '63-revision-v1', '', '', '2017-04-24 18:27:48', '2017-04-24 15:27:48', '', 63, 'http://broadcast2.loc/2017/04/24/63-revision-v1/', 0, 'revision', '', 0),
+(65, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '65', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=65', 2, 'nav_menu_item', '', 0),
+(66, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '66', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=66', 1, 'nav_menu_item', '', 0),
+(67, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=67', 3, 'nav_menu_item', '', 0);
 
 -- --------------------------------------------------------
 
@@ -535,7 +633,9 @@ CREATE TABLE `wp_terms` (
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (1, 'Без рубрики', '%d0%b1%d0%b5%d0%b7-%d1%80%d1%83%d0%b1%d1%80%d0%b8%d0%ba%d0%b8', 0),
-(2, 'Mainmenu', 'mainmenu', 0);
+(2, 'Главное меню', '%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%be%d0%b5-%d0%bc%d0%b5%d0%bd%d1%8e', 0),
+(3, 'Нижнее меню 1', '%d0%bd%d0%b8%d0%b6%d0%bd%d0%b5%d0%b5-%d0%bc%d0%b5%d0%bd%d1%8e-1', 0),
+(4, 'Нижнее меню 2', '%d0%bd%d0%b8%d0%b6%d0%bd%d0%b5%d0%b5-%d0%bc%d0%b5%d0%bd%d1%8e-2', 0);
 
 -- --------------------------------------------------------
 
@@ -567,7 +667,17 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (43, 2, 0),
 (49, 2, 0),
 (50, 2, 0),
-(51, 2, 0);
+(53, 2, 0),
+(54, 2, 0),
+(55, 2, 0),
+(56, 2, 0),
+(57, 2, 0),
+(58, 3, 0),
+(59, 3, 0),
+(60, 3, 0),
+(65, 4, 0),
+(66, 4, 0),
+(67, 4, 0);
 
 -- --------------------------------------------------------
 
@@ -590,7 +700,9 @@ CREATE TABLE `wp_term_taxonomy` (
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
 (1, 1, 'category', '', 0, 1),
-(2, 2, 'nav_menu', '', 0, 13);
+(2, 2, 'nav_menu', '', 0, 17),
+(3, 3, 'nav_menu', '', 0, 3),
+(4, 4, 'nav_menu', '', 0, 3);
 
 -- --------------------------------------------------------
 
@@ -628,7 +740,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (16, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (17, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (18, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}'),
-(19, 1, 'nav_menu_recently_edited', '2');
+(19, 1, 'nav_menu_recently_edited', '4');
 
 -- --------------------------------------------------------
 
@@ -782,17 +894,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT для таблицы `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=176;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
 --
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=182;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=294;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --
@@ -802,12 +914,12 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT для таблицы `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT для таблицы `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT для таблицы `wp_usermeta`
 --
