@@ -6,7 +6,10 @@ remove_filter('the_content', 'wptexturize');
 
 register_nav_menus(array(
 	'top' => 'Верхнее меню',            
-	'bottom' => 'Нижнее меню'   
+	'bottom' => 'Нижнее меню',
+    'Нижнее меню 1' => 'Нижнее меню 1',
+    'Нижнее меню 2' => 'Нижнее меню 2'
+
 ));
 
 add_theme_support('menus');

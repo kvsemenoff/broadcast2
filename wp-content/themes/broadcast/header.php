@@ -30,7 +30,7 @@
 						<?php
 						$args = array(
 							'theme_location'  => '',
-							'menu'            => 'Main menu', 
+							'menu'            => 'Главное меню', 
 							'container'       => flase, 
 							'container_class' => '', 
 							'container_id'    => '',

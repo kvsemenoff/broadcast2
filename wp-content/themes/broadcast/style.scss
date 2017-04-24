@@ -22,7 +22,9 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
-
+a{
+	color: white;
+}
 ul {
   list-style: none; }
   
@@ -35,7 +37,6 @@ q:before, q:after {
   content: '';
   content: none; 
 }
-
 @font-face {
 	font-family: "SegoeUIRegular";
 	src: url("./fonts/SegoeUIRegular/SegoeUIRegular.eot");
@@ -273,6 +274,7 @@ body, html{
 	padding-bottom: 22px;
 	padding-top: 20px;
 }
+
 .footer-menu__link{
 	line-height: 24px;
 	color: white;
@@ -280,6 +282,7 @@ body, html{
 	font-family: "SegoeUISemiBold";
 	font-weight: 400;
 }
+
 @media only screen and (min-width : 992px) {
 	.footer__caption{
 		padding-top: 0;

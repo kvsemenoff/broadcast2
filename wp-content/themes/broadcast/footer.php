@@ -3,31 +3,49 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
 				<p class="footer__caption">Основные</p>
-				<ul class="footer-menu">
-					<li class="footer-menu__item">
-						<a href="#" class="footer-menu__link">Главная</a>
-					</li>
-					<li class="footer-menu__item">
-						<a href="#" class="footer-menu__link">Проекты</a>
-					</li>
-					<li class="footer-menu__item">
-						<a href="#" class="footer-menu__link">Команда</a>
-					</li>
-				</ul>
+				<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Нижнее меню 1', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'footer-menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="footer-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 			</div>
 			<div class="col-md-3 col-sm-6">
 				<p class="footer__caption">Дополнительные</p>
-				<ul class="footer-menu">
-					<li class="footer-menu__item">
-						<a href="#" class="footer-menu__link">Презентация</a>
-					</li>
-					<li class="footer-menu__item">
-						<a href="#" class="footer-menu__link">Наш блог</a>
-					</li>
-					<li class="footer-menu__item">
-						<a href="#" class="footer-menu__link">Контакты</a>
-					</li>
-				</ul>
+				<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Нижнее меню 2', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'footer-menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="footer-menu">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 			</div>
 			<div class="col-md-3 col-sm-6">
 				<p class="footer__caption">Офис</p>

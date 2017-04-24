@@ -103,7 +103,7 @@
 	</div>	
 </div>
 
-<div class="extra">
+<div class="extra" name="projects" id="projects">
   <div class="container">
     <h2 class="h2 h2_theme_rosa h2_pink h2_extra">Дополнительные возможности</h2>
     <p class="extra_subtitle">Только за прошлый год мы организовали более 50 онлайн-трансляций в Москве, Санкт-Петербурге и регионах. Среди наших клиентов десятки крупных компаний. Присоединяйтесь!</p>
@@ -180,7 +180,7 @@
 	</div>
 </div>	
 
-<div class="command command_bg_color">
+<div class="command command_bg_color" name="command" id="command">
 	<div class="command__container">
 		<div class="command__textbox">
 			<h2 class="h2_theme_rosa h2_pink command__topcaption">НАША КОМАНДА</h2>
