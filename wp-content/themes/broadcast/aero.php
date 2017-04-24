@@ -1,53 +1,32 @@
-<?php 
-/*
-Template name: Типовая страница услуги
-*/
-?>
-<?php get_header(); ?>
+<?php require_once('includes/header.php'); ?>
+<?php require_once('includes/header-top_inner.php'); ?>
 
 <div class="aero-top">
-	<span class="aero-top__bg">Онлайнтрансляция</span>
-	<div class="aero__nav">
-		<div class="container">
-			<ul class="sub">
-				<li class="sub__point sub__point_main sub__point_main-first">
-					<span class="aero__nav-item">Онлайн трансляции</span>
-					<ul class="sub__list">
-						<li class="sub__point"><a href="#" class="sub__point-title">Онлайн трансляции в интернет</a></li>
-						<li class="sub__point"><a href="#" class="sub__point-title">Трансляции на экран</a></li>
-						<li class="sub__point"><a href="#" class="sub__point-title">Проведение телемостов</a></li>
-						<li class="sub__point"><a href="#" class="sub__point-title">Платные видеотрансляции</a></li>
-					</ul>
-				</li>
-				<li class="sub__point sub__point_main">
-					<span class="aero__nav-item">Многокамерная видеосъемка</span>
-					<ul class="sub__list">
-						<li class="sub__point"><a href="#" class="sub__point-title">Съемка концертов</a></li>
-						<li class="sub__point"><a href="#" class="sub__point-title">Съемка лекций и семинаров</a></li>
-						<li class="sub__point"><a href="#" class="sub__point-title">Съемка презентаций</a></li>
-						<li class="sub__point"><a href="#" class="sub__point-title">Съемка спортивных мероприятий</a></li>
-					</ul>
-				</li>
-				<li class="sub__point sub__point_main">
-					<span class="aero__nav-item">Аренда ПТС</span>
-				</li>
-			</ul>
-		</div>
-	</div>
 	<div class="container clearfix">
-		<div class="aero__sidebar">
+		<div class="aero-sidebar">
+			<span class="aero-top__bg">Онлайнтрансляция</span>
 			<ul class="sub">
-				<li class="sub__point sub__point_main">Онлайн трансляции</li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Онлайн трансляции в интернет</a></li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Трансляции на экран</a></li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Проведение телемостов</a></li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Платные видеотрансляции</a></li>
-				<li class="sub__point sub__point_main">Многокамерная видеосъемка</li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Съемка концертов</a></li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Съемка лекций и семинаров</a></li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Съемка презентаций</a></li>
-				<li class="sub__point"><a href="#" class="sub__point-title">Съемка спортивных мероприятий</a></li>
-				<li class="sub__point sub__point_main">Аренда ПТС</li>
+				<li>
+					<a href="#">Онлайн трансляции</a>
+					<ul class="sub-list">
+						<li><a href="#">Онлайн трансляции в интернет</a></li>
+						<li><a href="#">Трансляции на экран</a></li>
+						<li><a href="#">Проведение телемостов</a></li>
+						<li><a href="#">Платные видеотрансляции</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Многокамерная видеосъемка</a>
+					<ul class="sub-list">
+						<li><a href="#">Съемка концертов</a></li>
+						<li><a href="#">Съемка лекций и семинаров</a></li>
+						<li><a href="#">Съемка презентаций</a></li>
+						<li><a href="#">Съемка спортивных мероприятий</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Аренда ПТС</a>
+				</li>
 			</ul>
 		</div>
 		<div class="aero-top__content">
@@ -57,7 +36,7 @@ Template name: Типовая страница услуги
 			</div>
 			<div class="content__inner clearfix">
 				<div class="content__img-wrap">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" class="content__img" alt="">
+					<img src="img/whatimg.png" class="content__img" alt="">
 				</div>
 				<div class="content__text-wrap">
 					<div class="content__title content__title_mobile">
@@ -75,19 +54,12 @@ Template name: Типовая страница услуги
 
 <div class="price_aero price_aero_theme_rosa">
 	<div class="aero__container aero__container__theme_rosa">
-		<h2 class="h2_theme_rosa h2_pink h2_inner_page price_aero__caption"><?php the_title(); ?></h2>
-
-		<?php wp_reset_query(); ?>						
-		
-		<?php while ( have_posts() ) : the_post(); ?>
-		<?php the_content(); ?>
-		<?php endwhile; ?>
-		<?php wp_reset_query(); ?>		
-
-		<!-- <p class="price_aero__text">Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.
+		<h2 class="h2_theme_rosa h2_pink h2_inner_page price_aero__caption">Стоимость проведения аэрофотосъемки
+и оборудования</h2>
+		<p class="price_aero__text">Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное насекомое.
 		Лежа на панцирнотвердой спине, он видел, стоило ему приподнять голову,
 		свой коричневый, выпуклый, разделенный дугообразными чешуйками живот, на верхушке которого еле держалось готовое вот-вот окончательно сползти одеяло. Его многочисленные, убого тонкие по сравнению с остальным телом ножки беспомощно копошились у него перед глазами.</p>
-		<p class="price_aero__text">«Что со мной случилось?» – подумал он. Это не было сном. Его комната, настоящая, разве что слишком маленькая, но обычная комната, мирно покоилась в своих четырех хорошо знакомых стенах. Над столом, где были разложены распакованные образцы сукон – Замза был коммивояжером, – висел портрет, который он недавно вырезал из иллюстрированного журнала и вставил в красивую золоченую рамку. На портрете была изображена дама в меховой шляпе, в которой целиком исчезала ее рука.</p> -->
+		<p class="price_aero__text">«Что со мной случилось?» – подумал он. Это не было сном. Его комната, настоящая, разве что слишком маленькая, но обычная комната, мирно покоилась в своих четырех хорошо знакомых стенах. Над столом, где были разложены распакованные образцы сукон – Замза был коммивояжером, – висел портрет, который он недавно вырезал из иллюстрированного журнала и вставил в красивую золоченую рамку. На портрете была изображена дама в меховой шляпе, в которой целиком исчезала ее рука.</p>
 	</div>
 
 </div>
@@ -100,7 +72,7 @@ Template name: Типовая страница услуги
 		<div class="aero__imgbox">
 			<h2 class="aero__caption__mobileversion">Аэрофотосъемка</h2>
 			<span class="aero__cap_sub">Фотосъемка с высоты до 500 метров</span>
-			<div class="aero__img"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></div>
+			<div class="aero__img"><img src="img/whatimg.png" alt=""></div>
 			<span class="aero__txt_sub">Ноябрь 2016, ресторан «Бали»</span>
 		</div>
 
@@ -122,13 +94,13 @@ Template name: Типовая страница услуги
 	<div class="foto_job__container">
 		<h2 class="h2_theme_rosa h2_pink h2_inner_page filming__caption">Фотографии процесса нашей работы</h2>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<img src="img/whatimg.png" alt="">
 		</div>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<img src="img/whatimg.png" alt="">
 		</div>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<img src="img/whatimg.png" alt="">
 		</div>
 	</div>
 </div>
@@ -140,27 +112,27 @@ Template name: Типовая страница услуги
 			<div id="filming__owl_slider">
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -235,18 +207,22 @@ Template name: Типовая страница услуги
 	<div class="container">
 		<h2 class="h2_theme_rosa h2_pink whattodo__topcaption">Наши заказчики</h2>
 		<div class="our__customer customer">
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/herbalife-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/ros-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/rzd-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/remar-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tvch-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/tricolor-meidum.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/rostelecom-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/main-division.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/eco-medium.png" alt=""></a>
-			<a href="#" class="customer__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/bm-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/herbalife-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/ros-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/rzd-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/remar-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/tvch-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/tricolor-meidum.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/rostelecom-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/main-division.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/eco-medium.png" alt=""></a>
+			<a href="#" class="customer__logo"><img src="img/bm-medium.png" alt=""></a>
 		</div>
 	</div>	
 </div>
 
-<?php get_footer(); ?>
+<?php require_once('includes/popup.php'); ?>
+<?php require_once('includes/footer.php'); ?>
+
+</body>
+</html>
