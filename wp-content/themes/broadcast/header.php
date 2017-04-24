@@ -27,8 +27,27 @@
 						<i class="menu-button__bg menu-button__bg_bot"></i>
 					</div>
 					<nav class="menu">
-						<ul class="main-menu clearfix">
-							<li>
+						<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Main menu', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'menu', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="main-menu clearfix">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
+							<!--<li>
 								<ul class="clearfix">
 									<li><a class="mobile-nav-active" href="#">Главная</a></li>
 									<li><a href="#">Услуги</a></li>
@@ -88,7 +107,7 @@
 									<li><a href="#">Трансляции на экран</a></li>
 									<li><a href="#">Проведение телемостов</a></li>
 								</ul>
-							</li>
+							</li> -->
 						</ul>
 					</nav>
 				</div>
