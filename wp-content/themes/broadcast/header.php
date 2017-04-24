@@ -17,7 +17,7 @@
 	<div class="top-line clearfix">
 		<div class="container">
 			<div class="top-line__logo-block">
-				<a href="#" class="top-line__logo"></a>
+				<a href="/" class="top-line__logo"></a>
 			</div>
 			<div class="top-line__right">
 				<div class="menu-wrap">
@@ -75,7 +75,7 @@
 	<div class="top-line clearfix">
 		<div class="container">
 			<div class="top-line__logo-block">
-				<a href="#" class="top-line__logo"></a>
+				<a href="/" class="top-line__logo"></a>
 			</div>
 			<div class="top-line__right">
 				<div class="menu-wrap">
