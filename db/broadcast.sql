@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 24 2017 г., 19:48
+-- Время создания: Апр 24 2017 г., 20:10
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -219,8 +219,6 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (136, 'current_theme', '', 'yes'),
 (137, 'theme_mods_broadcast', 'a:3:{i:0;b:0;s:18:\"custom_css_post_id\";i:-1;s:18:\"nav_menu_locations\";a:1:{s:23:\"Нижнее меню 2\";i:4;}}', 'yes'),
 (138, 'theme_switched', '', 'yes'),
-(153, '_site_transient_timeout_theme_roots', '1493044765', 'no'),
-(154, '_site_transient_theme_roots', 'a:4:{s:9:\"Broadcast\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
 (155, '_site_transient_timeout_browser_8bf7ba49ae7a874e29f7159f89c9e9dc', '1493647954', 'no'),
 (156, '_site_transient_browser_8bf7ba49ae7a874e29f7159f89c9e9dc', 'a:9:{s:8:\"platform\";s:7:\"Windows\";s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"56.0.2924.87\";s:10:\"update_url\";s:28:\"http://www.google.com/chrome\";s:7:\"img_src\";s:49:\"http://s.wordpress.org/images/browsers/chrome.png\";s:11:\"img_src_ssl\";s:48:\"https://wordpress.org/images/browsers/chrome.png\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}', 'no'),
 (157, '_transient_timeout_feed_ac0b00fe65abe10e0c5b588f3ed8c7ca', '1493086357', 'no');
@@ -245,7 +243,9 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (170, '_transient_plugin_slugs', 'a:3:{i:0;s:30:\"advanced-custom-fields/acf.php\";i:1;s:19:\"akismet/akismet.php\";i:2;s:9:\"hello.php\";}', 'no'),
 (171, '_transient_timeout_dash_f69de0bbfe7eaa113146875f40c02000', '1493086363', 'no'),
 (172, '_transient_dash_f69de0bbfe7eaa113146875f40c02000', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2017/04/wordpress-4-7-4/\'>WordPress 4.7.4 Maintenance Release</a> <span class=\"rss-date\">20.04.2017</span><div class=\"rssSummary\">After almost sixty million downloads of WordPress 4.7, we are pleased to announce the immediate availability of WordPress 4.7.4, a maintenance release. This release contains 47 bug fixes and enhancements, chief among them an incompatibility between the upcoming Chrome version and the visual editor, inconsistencies in media handling, and further improvements to the REST API.</div></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://ma.tt/2017/04/songs-for-my-father/\'>Matt: Songs for My Father</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/embed-mastodon-statuses-in-wordpress\'>WPTavern: Embed Mastodon Statuses in WordPress</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/headway-themes-appears-to-be-dying-a-slow-death\'>WPTavern: Headway Themes Appears to be Dying a Slow Death</a></li></ul></div><div class=\"rss-widget\"><ul><li class=\"dashboard-news-plugin\"><span>Популярный плагин:</span> WooCommerce&nbsp;<a href=\"plugin-install.php?tab=plugin-information&amp;plugin=woocommerce&amp;_wpnonce=e32b056a37&amp;TB_iframe=true&amp;width=600&amp;height=800\" class=\"thickbox open-plugin-details-modal\" aria-label=\"Установить WooCommerce\">(Установить)</a></li></ul></div>', 'no'),
-(173, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'yes');
+(173, 'nav_menu_options', 'a:2:{i:0;b:0;s:8:\"auto_add\";a:0:{}}', 'yes'),
+(177, '_site_transient_timeout_theme_roots', '1493054559', 'no'),
+(178, '_site_transient_theme_roots', 'a:4:{s:9:\"Broadcast\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no');
 
 -- --------------------------------------------------------
 
@@ -277,7 +277,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (10, 11, '_edit_last', '1'),
 (11, 11, '_edit_lock', '1493044062:1'),
 (12, 13, '_edit_last', '1'),
-(13, 13, '_edit_lock', '1493044107:1'),
+(13, 13, '_edit_lock', '1493053657:1'),
 (14, 15, '_menu_item_type', 'post_type'),
 (15, 15, '_menu_item_menu_item_parent', '0'),
 (16, 15, '_menu_item_object_id', '13'),
@@ -498,7 +498,8 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (289, 67, '_menu_item_target', ''),
 (290, 67, '_menu_item_classes', 'a:1:{i:0;s:0:\"\";}'),
 (291, 67, '_menu_item_xfn', ''),
-(292, 67, '_menu_item_url', '');
+(292, 67, '_menu_item_url', ''),
+(294, 13, '_wp_page_template', 'template-contacts.php');
 
 -- --------------------------------------------------------
 
@@ -549,7 +550,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (10, 1, '2017-04-24 17:29:53', '2017-04-24 14:29:53', '', 'Главная', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2017-04-24 17:29:53', '2017-04-24 14:29:53', '', 9, 'http://broadcast2.loc/2017/04/24/9-revision-v1/', 0, 'revision', '', 0),
 (11, 1, '2017-04-24 17:30:05', '2017-04-24 14:30:05', '', 'Услуги', '', 'trash', 'closed', 'closed', '', '%d1%83%d1%81%d0%bb%d1%83%d0%b3%d0%b8-2__trashed', '', '', '2017-04-24 17:40:26', '2017-04-24 14:40:26', '', 0, 'http://broadcast2.loc/?page_id=11', 0, 'page', '', 0),
 (12, 1, '2017-04-24 17:30:05', '2017-04-24 14:30:05', '', 'Услуги', '', 'inherit', 'closed', 'closed', '', '11-revision-v1', '', '', '2017-04-24 17:30:05', '2017-04-24 14:30:05', '', 11, 'http://broadcast2.loc/2017/04/24/11-revision-v1/', 0, 'revision', '', 0),
-(13, 1, '2017-04-24 17:30:35', '2017-04-24 14:30:35', '', 'Контакты', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b', '', '', '2017-04-24 17:30:51', '2017-04-24 14:30:51', '', 0, 'http://broadcast2.loc/?page_id=13', 0, 'page', '', 0),
+(13, 1, '2017-04-24 17:30:35', '2017-04-24 14:30:35', 'Гы', 'Контакты', '', 'publish', 'closed', 'closed', '', '%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b', '', '', '2017-04-24 20:07:58', '2017-04-24 17:07:58', '', 0, 'http://broadcast2.loc/?page_id=13', 0, 'page', '', 0),
 (14, 1, '2017-04-24 17:30:35', '2017-04-24 14:30:35', '', 'Контакты', '', 'inherit', 'closed', 'closed', '', '13-revision-v1', '', '', '2017-04-24 17:30:35', '2017-04-24 14:30:35', '', 13, 'http://broadcast2.loc/2017/04/24/13-revision-v1/', 0, 'revision', '', 0),
 (15, 1, '2017-04-24 17:32:12', '2017-04-24 14:32:12', ' ', '', '', 'publish', 'closed', 'closed', '', '15', '', '', '2017-04-24 18:18:59', '2017-04-24 15:18:59', '', 0, 'http://broadcast2.loc/?p=15', 17, 'nav_menu_item', '', 0),
 (18, 1, '2017-04-24 17:38:51', '2017-04-24 14:38:51', '', 'Онлайн трансляции в интернет', '', 'publish', 'closed', 'closed', '', '%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd-%d1%82%d1%80%d0%b0%d0%bd%d1%81%d0%bb%d1%8f%d1%86%d0%b8%d0%b8-%d0%b2-%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%bd%d0%b5%d1%82', '', '', '2017-04-24 17:38:51', '2017-04-24 14:38:51', '', 0, 'http://broadcast2.loc/?page_id=18', 0, 'page', '', 0),
@@ -599,7 +600,9 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (64, 1, '2017-04-24 18:27:48', '2017-04-24 15:27:48', '', 'Наш блог', '', 'inherit', 'closed', 'closed', '', '63-revision-v1', '', '', '2017-04-24 18:27:48', '2017-04-24 15:27:48', '', 63, 'http://broadcast2.loc/2017/04/24/63-revision-v1/', 0, 'revision', '', 0),
 (65, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '65', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=65', 2, 'nav_menu_item', '', 0),
 (66, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '66', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=66', 1, 'nav_menu_item', '', 0),
-(67, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=67', 3, 'nav_menu_item', '', 0);
+(67, 1, '2017-04-24 18:28:05', '2017-04-24 15:28:05', ' ', '', '', 'publish', 'closed', 'closed', '', '67', '', '', '2017-04-24 18:30:26', '2017-04-24 15:30:26', '', 0, 'http://broadcast2.loc/?p=67', 3, 'nav_menu_item', '', 0),
+(68, 1, '2017-04-24 20:07:49', '2017-04-24 17:07:49', 'ПРивет мир', 'Контакты', '', 'inherit', 'closed', 'closed', '', '13-revision-v1', '', '', '2017-04-24 20:07:49', '2017-04-24 17:07:49', '', 13, 'http://broadcast2.loc/2017/04/24/13-revision-v1/', 0, 'revision', '', 0),
+(69, 1, '2017-04-24 20:07:58', '2017-04-24 17:07:58', 'Гы', 'Контакты', '', 'inherit', 'closed', 'closed', '', '13-revision-v1', '', '', '2017-04-24 20:07:58', '2017-04-24 17:07:58', '', 13, 'http://broadcast2.loc/2017/04/24/13-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -740,7 +743,9 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (16, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (17, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}'),
 (18, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:\"add-post_tag\";}'),
-(19, 1, 'nav_menu_recently_edited', '4');
+(19, 1, 'nav_menu_recently_edited', '4'),
+(20, 1, 'closedpostboxes_page', 'a:0:{}'),
+(21, 1, 'metaboxhidden_page', 'a:5:{i:0;s:10:\"postcustom\";i:1;s:16:\"commentstatusdiv\";i:2;s:11:\"commentsdiv\";i:3;s:7:\"slugdiv\";i:4;s:9:\"authordiv\";}');
 
 -- --------------------------------------------------------
 
@@ -894,17 +899,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT для таблицы `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=179;
 --
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=294;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=295;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --
@@ -924,7 +929,7 @@ ALTER TABLE `wp_term_taxonomy`
 -- AUTO_INCREMENT для таблицы `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT для таблицы `wp_users`
 --
