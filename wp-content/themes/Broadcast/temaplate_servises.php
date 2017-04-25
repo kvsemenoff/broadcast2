@@ -8,32 +8,7 @@ Template Name: Услуги
 <?php get_header(); ?>
 	<div class="aero-top">
 	<div class="container clearfix">
-		<div class="aero-sidebar">
-			<span class="aero-top__bg">Онлайнтрансляция</span>
-			<ul class="sub">
-				<li>
-					<a href="#">Онлайн трансляции</a>
-					<ul class="sub-list">
-						<li><a href="#">Онлайн трансляции в интернет</a></li>
-						<li><a href="#">Трансляции на экран</a></li>
-						<li><a href="#">Проведение телемостов</a></li>
-						<li><a href="#">Платные видеотрансляции</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Многокамерная видеосъемка</a>
-					<ul class="sub-list">
-						<li><a href="#">Съемка концертов</a></li>
-						<li><a href="#">Съемка лекций и семинаров</a></li>
-						<li><a href="#">Съемка презентаций</a></li>
-						<li><a href="#">Съемка спортивных мероприятий</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Аренда ПТС</a>
-				</li>
-			</ul>
-		</div>
+		<?php get_sidebar(); ?>
 		<div class="aero-top__content">
 			<div class="content__title content__title_decstop">
 				<h2 class="h2_theme_rosa h2_pink h2_inner_page">Аэрофотосъемка</h2>
