@@ -140,9 +140,12 @@
 	<div class="online__container">
 		<h2 class="h2_theme_rosa h2_pink online__topcaption">СТОИМОСТЬ ОНЛАЙН ТРАНСЛЯЦИИ НА ЭКРАН</h2>
 		<div class="online__camers">
-		<?php wp_reset_query(); ?>
-			<?php $wp_query = new WP_Query(array('posttype' => 'Price')); ?>
-			<?php while ( have_posts() ) : the_post(); ?>	
+			<?php //wp_reset_query(); ?>
+			<?php //new WP_Query('post_type=Price'); ?>
+			<?php //while ( have_posts() ) : the_post(); ?>
+			<?php $acsessuar = new WP_Query( array( 'post_type' => 'Price') ); ?>
+
+ 			<?php while ( $acsessuar->have_posts() ) : $acsessuar->the_post(); ?>
 					<div class="online__cam_box">	
 					<h4 class="online__boxcaption"><?php the_title(); ?></h4>
 					<span class="online__boxsub">На сцене 1 спикер</span>
@@ -150,6 +153,10 @@
 					<span class="online__pricetext">от <em><?php 	echo get_field('camera1'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
 					<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
 				</div>
+				<?php endwhile; ?>
+<?php wp_reset_postdata(); ?> 
+			<?php //endwhile;  ?>
+			<?php //wp_reset_query(); ?>
 			<!-- <div class="online__cam_box">
 				<h4 class="online__boxcaption">2 КАМЕРА</h4>
 				<span class="online__boxsub">Для небольших площадок</span>
@@ -172,8 +179,7 @@
 				<span class="online__pricetext">от <em><?php 	echo get_field('camera4'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
 				<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
 			</div> -->
-			<?php endwhile;  ?>
-			<?php wp_reset_query(); ?>
+			
 		</div>
 				<?php/* endwhile;*/ ?>
 		<div class="online__textbottom">
