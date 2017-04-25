@@ -3,12 +3,12 @@
 
 <div class="aero-top">
 	<div class="container clearfix">
+		<span class="aero-top__bg">Онлайнтрансляция</span>
 		<div class="aero-sidebar">
-			<span class="aero-top__bg">Онлайнтрансляция</span>
-			<ul class="sub">
+			<ul>
 				<li>
 					<a href="#">Онлайн трансляции</a>
-					<ul class="sub-list">
+					<ul>
 						<li><a href="#">Онлайн трансляции в интернет</a></li>
 						<li><a href="#">Трансляции на экран</a></li>
 						<li><a href="#">Проведение телемостов</a></li>
@@ -17,7 +17,7 @@
 				</li>
 				<li>
 					<a href="#">Многокамерная видеосъемка</a>
-					<ul class="sub-list">
+					<ul>
 						<li><a href="#">Съемка концертов</a></li>
 						<li><a href="#">Съемка лекций и семинаров</a></li>
 						<li><a href="#">Съемка презентаций</a></li>
@@ -36,7 +36,7 @@
 			</div>
 			<div class="content__inner clearfix">
 				<div class="content__img-wrap">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" class="content__img" alt="">
+					<img src="img/whatimg.png" class="content__img" alt="">
 				</div>
 				<div class="content__text-wrap">
 					<div class="content__title content__title_mobile">
@@ -72,7 +72,7 @@
 		<div class="aero__imgbox">
 			<h2 class="aero__caption__mobileversion">Аэрофотосъемка</h2>
 			<span class="aero__cap_sub">Фотосъемка с высоты до 500 метров</span>
-			<div class="aero__img"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></div>
+			<div class="aero__img"><img src="img/whatimg.png" alt=""></div>
 			<span class="aero__txt_sub">Ноябрь 2016, ресторан «Бали»</span>
 		</div>
 
@@ -94,13 +94,13 @@
 	<div class="foto_job__container">
 		<h2 class="h2_theme_rosa h2_pink h2_inner_page filming__caption">Фотографии процесса нашей работы</h2>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<img src="img/whatimg.png" alt="">
 		</div>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<img src="img/whatimg.png" alt="">
 		</div>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<img src="img/whatimg.png" alt="">
 		</div>
 	</div>
 </div>
@@ -112,27 +112,27 @@
 			<div id="filming__owl_slider">
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 				<div class="item">
 					<div class="filming___img">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+						<img src="img/whatimg.png" alt="">
 					</div>
 				</div>
 			</div>
@@ -220,7 +220,6 @@
 		</div>
 	</div>	
 </div>
-
 <?php require_once('includes/popup.php'); ?>
 <?php require_once('includes/footer.php'); ?>
 

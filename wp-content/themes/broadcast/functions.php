@@ -24,7 +24,48 @@ register_sidebar( array(
 add_theme_support('menus');
 
 add_theme_support( 'post-thumbnails' );
-
+add_action('init', 'Price_register');
+function Price_register() {
+    $args = array(
+        'label'               => __('Прайс'),
+        'labels'              => array(
+            'name'               => __('Прайс'),
+            'singular_name'      => __('Прайс'),
+            'menu_name'          => __('Прайс'),
+            'all_items'          => __('Все Прайс'),
+            'add_new'            => _x('Добавить Прайс', 'product'),
+            'add_new_item'       => __('Новый Прайс'),
+            'edit_item'          => __('Редактировать Прайс'),
+            'new_item'           => __('Новый Прайс'),
+            'view_item'          => __('Прайс'),
+            'not_found'          => __('Прайс не найден'),
+            'not_found_in_trash' => __('Удаленных Прайсов нет'),
+            'search_items'       => __('Найти Прайс')
+        ),
+        'description'         => __('Прайс'),
+        'public'              => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'show_ui'             => true,
+        'show_in_nav_menus'   => true,
+        'show_in_menu'        => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'capability_type'     => 'post',
+        'hierarchical'        => false,
+        'supports'            => array(
+            'title'
+            
+   
+        ),
+        'has_archive'         => false,
+        'rewrite'             => array(
+            'slug'       => '',
+            'with_front' => false
+        )
+    );
+    register_post_type('Price', $args);
+}
 function my_function_admin_bar(){
 return false;
 }
