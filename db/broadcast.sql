@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 25 2017 г., 09:19
+-- Время создания: Апр 25 2017 г., 11:14
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -62,7 +62,7 @@ CREATE TABLE `wp_comments` (
 --
 
 INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
-(1, 1, 'Автор комментария', 'wapuu@wordpress.example', 'https://wordpress.org/', '', '2017-04-21 16:49:44', '2017-04-21 13:49:44', 'Привет! Это комментарий.\nЧтобы начать модерировать, редактировать и удалять комментарии, перейдите на экран «Комментарии» в консоли.\nАватары авторов комментариев загружаются с сервиса <a href=\"https://ru.gravatar.com\">Gravatar</a>.', 0, '1', '', '', 0, 0);
+(1, 1, 'Автор комментария', 'wapuu@wordpress.example', 'https://wordpress.org/', '', '2017-04-21 16:49:44', '2017-04-21 13:49:44', 'Привет! Это комментарий.\nЧтобы начать модерировать, редактировать и удалять комментарии, перейдите на экран «Комментарии» в консоли.\nАватары авторов комментариев загружаются с сервиса <a href=\"https://ru.gravatar.com\">Gravatar</a>.', 0, 'post-trashed', '', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -578,15 +578,14 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (391, 1, 'Some_try', ''),
 (392, 1, '_Some_try', 'field_58fe6d0e3b7ce'),
 (393, 81, '_edit_last', '1'),
-(394, 81, 'field_58fee596398a2', 'a:14:{s:3:\"key\";s:19:\"field_58fee596398a2\";s:5:\"label\";s:21:\"Первая цена\";s:4:\"name\";s:21:\"первая_цена\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
-(395, 81, 'field_58fee5b0398a3', 'a:14:{s:3:\"key\";s:19:\"field_58fee5b0398a3\";s:5:\"label\";s:21:\"Вторая цена\";s:4:\"name\";s:21:\"вторая_цена\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
-(396, 81, 'field_58fee5bb398a4', 'a:14:{s:3:\"key\";s:19:\"field_58fee5bb398a4\";s:5:\"label\";s:21:\"Третья цена\";s:4:\"name\";s:21:\"третья_цена\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
-(397, 81, 'field_58fee5c7398a5', 'a:14:{s:3:\"key\";s:19:\"field_58fee5c7398a5\";s:5:\"label\";s:27:\"Четвертая цена\";s:4:\"name\";s:27:\"четвертая_цена\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:3;}'),
-(398, 81, 'rule', 'a:5:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"post\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+(394, 81, 'field_58fee596398a2', 'a:14:{s:3:\"key\";s:19:\"field_58fee596398a2\";s:5:\"label\";s:14:\"1 КАМЕРА\";s:4:\"name\";s:7:\"camera1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:6:\"15 000\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+(395, 81, 'field_58fee5b0398a3', 'a:14:{s:3:\"key\";s:19:\"field_58fee5b0398a3\";s:5:\"label\";s:14:\"2 КАМЕРА\";s:4:\"name\";s:7:\"camera2\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:6:\"20 000\";s:11:\"placeholder\";s:6:\"20 000\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
+(396, 81, 'field_58fee5bb398a4', 'a:14:{s:3:\"key\";s:19:\"field_58fee5bb398a4\";s:5:\"label\";s:14:\"3 КАМЕРА\";s:4:\"name\";s:7:\"camera3\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
+(397, 81, 'field_58fee5c7398a5', 'a:14:{s:3:\"key\";s:19:\"field_58fee5c7398a5\";s:5:\"label\";s:12:\"5 КАМЕР\";s:4:\"name\";s:7:\"camera5\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:3;}'),
 (399, 81, 'position', 'normal'),
 (400, 81, 'layout', 'no_box'),
 (401, 81, 'hide_on_screen', ''),
-(402, 81, '_edit_lock', '1493100915:1'),
+(402, 81, '_edit_lock', '1493107487:1'),
 (405, 82, 'первая_цена', '15000'),
 (406, 82, '_первая_цена', 'field_58fee596398a2'),
 (407, 82, 'вторая_цена', '20000'),
@@ -617,7 +616,66 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (434, 83, '_Some_try', 'field_58fe6d0e3b7ce'),
 (435, 79, '_wp_trash_meta_status', 'publish'),
 (436, 79, '_wp_trash_meta_time', '1493100751'),
-(437, 79, '_wp_desired_post_slug', 'acf_%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c');
+(437, 79, '_wp_desired_post_slug', 'acf_%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c'),
+(438, 1, '_wp_trash_meta_status', 'publish'),
+(439, 1, '_wp_trash_meta_time', '1493104624'),
+(440, 1, '_wp_desired_post_slug', '%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80'),
+(441, 1, '_wp_trash_meta_comments_status', 'a:1:{i:1;s:1:\"1\";}'),
+(442, 84, '_edit_last', '1'),
+(443, 84, '_edit_lock', '1493106261:1'),
+(444, 86, '_edit_last', '1'),
+(445, 86, '_edit_lock', '1493107552:1'),
+(446, 87, '_edit_last', '1'),
+(447, 87, '_edit_lock', '1493107332:1'),
+(448, 88, '_edit_last', '1'),
+(449, 88, '_edit_lock', '1493107342:1'),
+(450, 89, '_edit_last', '1'),
+(451, 89, '_edit_lock', '1493107456:1'),
+(453, 84, '_wp_trash_meta_status', 'publish'),
+(454, 84, '_wp_trash_meta_time', '1493106796'),
+(455, 84, '_wp_desired_post_slug', '%d0%b3%d0%b3-%d0%b2%d0%bf'),
+(456, 81, 'rule', 'a:5:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"price\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+(457, 86, 'camera1', '10 000'),
+(458, 86, '_camera1', 'field_58fee596398a2'),
+(459, 86, 'camera2', '20 000'),
+(460, 86, '_camera2', 'field_58fee5b0398a3'),
+(461, 86, 'camera3', '30 000'),
+(462, 86, '_camera3', 'field_58fee5bb398a4'),
+(463, 86, 'camera5', '50 000'),
+(464, 86, '_camera5', 'field_58fee5c7398a5'),
+(465, 87, 'camera1', ''),
+(466, 87, '_camera1', 'field_58fee596398a2'),
+(467, 87, 'camera2', '20 000'),
+(468, 87, '_camera2', 'field_58fee5b0398a3'),
+(469, 87, 'camera3', ''),
+(470, 87, '_camera3', 'field_58fee5bb398a4'),
+(471, 87, 'camera5', ''),
+(472, 87, '_camera5', 'field_58fee5c7398a5'),
+(473, 88, 'camera1', ''),
+(474, 88, '_camera1', 'field_58fee596398a2'),
+(475, 88, 'camera2', ''),
+(476, 88, '_camera2', 'field_58fee5b0398a3'),
+(477, 88, 'camera3', '30 000'),
+(478, 88, '_camera3', 'field_58fee5bb398a4'),
+(479, 88, 'camera5', ''),
+(480, 88, '_camera5', 'field_58fee5c7398a5'),
+(481, 89, 'camera1', ''),
+(482, 89, '_camera1', 'field_58fee596398a2'),
+(483, 89, 'camera2', ''),
+(484, 89, '_camera2', 'field_58fee5b0398a3'),
+(485, 89, 'camera3', ''),
+(486, 89, '_camera3', 'field_58fee5bb398a4'),
+(487, 89, 'camera5', '50 000'),
+(488, 89, '_camera5', 'field_58fee5c7398a5'),
+(489, 87, '_wp_trash_meta_status', 'publish'),
+(490, 87, '_wp_trash_meta_time', '1493107634'),
+(491, 87, '_wp_desired_post_slug', '2-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0'),
+(492, 88, '_wp_trash_meta_status', 'publish'),
+(493, 88, '_wp_trash_meta_time', '1493107636'),
+(494, 88, '_wp_desired_post_slug', '3-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0'),
+(495, 89, '_wp_trash_meta_status', 'publish'),
+(496, 89, '_wp_trash_meta_time', '1493107638'),
+(497, 89, '_wp_desired_post_slug', '5-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80');
 
 -- --------------------------------------------------------
 
@@ -656,7 +714,7 @@ CREATE TABLE `wp_posts` (
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(1, 1, '2017-04-21 16:49:44', '2017-04-21 13:49:44', '', 'Прайс', '', 'publish', 'open', 'open', '', '%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80', '', '', '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 0, 'http://broadcast2.loc/?p=1', 0, 'post', '', 1),
+(1, 1, '2017-04-21 16:49:44', '2017-04-21 13:49:44', '', 'Прайс', '', 'trash', 'open', 'open', '', '%d0%bf%d1%80%d0%b8%d0%b2%d0%b5%d1%82-%d0%bc%d0%b8%d1%80__trashed', '', '', '2017-04-25 10:17:04', '2017-04-25 07:17:04', '', 0, 'http://broadcast2.loc/?p=1', 0, 'post', '', 1),
 (2, 1, '2017-04-21 16:49:44', '2017-04-21 13:49:44', 'Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице &laquo;Детали&raquo; владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:\n\n<blockquote>Привет! Днём я курьер, а вечером &#8212; подающий надежды актёр. Это мой блог. Я живу в Ростове-на-Дону, люблю своего пса Джека и пинаколаду. (И ещё попадать под дождь.)</blockquote>\n\n...или так:\n\n<blockquote>Компания &laquo;Штучки XYZ&raquo; была основана в 1971 году и с тех пор производит качественные штучки. Компания находится в Готэм-сити, имеет штат из более чем 2000 сотрудников и приносит много пользы жителям Готэма.</blockquote>\n\nПерейдите <a href=\"http://broadcast2.loc/wp-admin/\">в консоль</a>, чтобы удалить эту страницу и создать новые. Успехов!', 'Пример страницы', '', 'trash', 'closed', 'open', '', 'sample-page__trashed', '', '', '2017-04-21 18:00:23', '2017-04-21 15:00:23', '', 0, 'http://broadcast2.loc/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2017-04-21 16:50:01', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-04-21 16:50:01', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?p=3', 0, 'post', '', 0),
 (4, 1, '2017-04-21 18:00:23', '2017-04-21 15:00:23', 'Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице &laquo;Детали&raquo; владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:\n\n<blockquote>Привет! Днём я курьер, а вечером &#8212; подающий надежды актёр. Это мой блог. Я живу в Ростове-на-Дону, люблю своего пса Джека и пинаколаду. (И ещё попадать под дождь.)</blockquote>\n\n...или так:\n\n<blockquote>Компания &laquo;Штучки XYZ&raquo; была основана в 1971 году и с тех пор производит качественные штучки. Компания находится в Готэм-сити, имеет штат из более чем 2000 сотрудников и приносит много пользы жителям Готэма.</blockquote>\n\nПерейдите <a href=\"http://broadcast2.loc/wp-admin/\">в консоль</a>, чтобы удалить эту страницу и создать новые. Успехов!', 'Пример страницы', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2017-04-21 18:00:23', '2017-04-21 15:00:23', '', 2, 'http://broadcast2.loc/2017/04/21/2-revision-v1/', 0, 'revision', '', 0),
@@ -732,9 +790,16 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (78, 1, '2017-04-25 00:22:06', '2017-04-24 21:22:06', 'Как это работает?!', 'Как это работает?!', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 00:22:06', '2017-04-24 21:22:06', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
 (79, 1, '2017-04-25 00:24:53', '2017-04-24 21:24:53', '', 'Тестовая запись', '', 'trash', 'closed', 'closed', '', 'acf_%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c__trashed', '', '', '2017-04-25 09:12:31', '2017-04-25 06:12:31', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=79', 0, 'acf', '', 0),
 (80, 1, '2017-04-25 00:28:43', '2017-04-24 21:28:43', 'Как это работает?!', 'Как это работает?!', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 00:28:43', '2017-04-24 21:28:43', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
-(81, 1, '2017-04-25 08:59:50', '2017-04-25 05:59:50', '', 'Прайс', '', 'publish', 'closed', 'closed', '', 'acf_%d0%bf%d1%80%d0%b0%d0%b9%d1%81', '', '', '2017-04-25 08:59:50', '2017-04-25 05:59:50', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=81', 0, 'acf', '', 0),
+(81, 1, '2017-04-25 08:59:50', '2017-04-25 05:59:50', '', 'Прайс', '', 'publish', 'closed', 'closed', '', 'acf_%d0%bf%d1%80%d0%b0%d0%b9%d1%81', '', '', '2017-04-25 11:03:23', '2017-04-25 08:03:23', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=81', 0, 'acf', '', 0),
 (82, 1, '2017-04-25 09:12:16', '2017-04-25 06:12:16', '', 'Прайс', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 09:12:16', '2017-04-25 06:12:16', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
-(83, 1, '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 'Прайс', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0);
+(83, 1, '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 'Прайс', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
+(84, 1, '2017-04-25 10:31:58', '2017-04-25 07:31:58', '', 'Прайс', '', 'trash', 'closed', 'closed', '', '%d0%b3%d0%b3-%d0%b2%d0%bf__trashed', '', '', '2017-04-25 10:53:16', '2017-04-25 07:53:16', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=84', 0, 'price', '', 0),
+(85, 1, '2017-04-25 10:41:41', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-04-25 10:41:41', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?p=85', 0, 'post', '', 0),
+(86, 1, '2017-04-25 10:46:55', '2017-04-25 07:46:55', '', '1 КАМЕРА', '', 'publish', 'closed', 'closed', '', '1-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:07:34', '2017-04-25 08:07:34', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=86', 0, 'price', '', 0),
+(87, 1, '2017-04-25 10:47:02', '2017-04-25 07:47:02', '', '2 КАМЕРА', '', 'trash', 'closed', 'closed', '', '2-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0__trashed', '', '', '2017-04-25 11:07:14', '2017-04-25 08:07:14', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=87', 0, 'price', '', 0),
+(88, 1, '2017-04-25 10:47:37', '2017-04-25 07:47:37', '', '3 КАМЕРА', '', 'trash', 'closed', 'closed', '', '3-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0__trashed', '', '', '2017-04-25 11:07:16', '2017-04-25 08:07:16', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=88', 0, 'price', '', 0),
+(89, 1, '2017-04-25 10:47:44', '2017-04-25 07:47:44', '', '5 КАМЕР', '', 'trash', 'closed', 'closed', '', '5-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80__trashed', '', '', '2017-04-25 11:07:18', '2017-04-25 08:07:18', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=89', 0, 'price', '', 0),
+(90, 1, '2017-04-25 10:53:52', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-04-25 10:53:52', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?p=90', 0, 'post', '', 0);
 
 -- --------------------------------------------------------
 
@@ -834,7 +899,7 @@ CREATE TABLE `wp_term_taxonomy` (
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1, 1, 'category', '', 0, 1),
+(1, 1, 'category', '', 0, 0),
 (2, 2, 'nav_menu', '', 0, 17),
 (3, 3, 'nav_menu', '', 0, 3),
 (4, 4, 'nav_menu', '', 0, 3);
@@ -1036,12 +1101,12 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=438;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=498;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --

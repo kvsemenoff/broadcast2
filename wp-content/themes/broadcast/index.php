@@ -140,26 +140,28 @@
 	<div class="online__container">
 		<h2 class="h2_theme_rosa h2_pink online__topcaption">СТОИМОСТЬ ОНЛАЙН ТРАНСЛЯЦИИ НА ЭКРАН</h2>
 		<div class="online__camers">
-			<div class="online__cam_box">
-				<?php 	/*while(have_rows('Прайс')): */?>
-				<h4 class="online__boxcaption">1 КАМЕРА</h4>
-				<span class="online__boxsub">На сцене 1 спикер</span>
-				<p class="online__text">Персонал на видеоплощадке: <br> 1 видеооператор, 1 видеоинженер</p>
-				<span class="online__pricetext">от <em><?php 	echo get_field('первая_цена'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
-				<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
-			</div>
-			<div class="online__cam_box">
+		<?php wp_reset_query(); ?>
+			<?php $wp_query = new WP_Query(array('posttype' => 'Price')); ?>
+			<?php while ( have_posts() ) : the_post(); ?>	
+					<div class="online__cam_box">	
+					<h4 class="online__boxcaption"><?php the_title(); ?></h4>
+					<span class="online__boxsub">На сцене 1 спикер</span>
+					<p class="online__text">Персонал на видеоплощадке: <br> 1 видеооператор, 1 видеоинженер</p>
+					<span class="online__pricetext">от <em><?php 	echo get_field('camera1'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
+					<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
+				</div>
+			<!-- <div class="online__cam_box">
 				<h4 class="online__boxcaption">2 КАМЕРА</h4>
 				<span class="online__boxsub">Для небольших площадок</span>
 				<p class="online__text">Персонал на видеоплощадке: <br> 1 видеооператор, 1 видеоинженер</p>
-				<span class="online__pricetext">от <em><?php 	echo get_field('вторая_цена'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
+				<span class="online__pricetext">от <em><?php 	echo get_field('camera2'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
 				<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
 			</div>
 			<div class="online__cam_box">
 				<h4 class="online__boxcaption">3 КАМЕРА</h4>
 				<span class="online__boxsub">Мероприятия с вопросами из зала</span>
 				<p class="online__text">Персонал на видеоплощадке: <br>1 видеооператор, 1 видеоинженер, режиссер эфира</p>
-				<span class="online__pricetext">от <em><?php 	echo get_field('третья_цена'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
+				<span class="online__pricetext">от <em><?php 	echo get_field('camera3'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
 				<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
 			</div>
 			<div class="online__cam_box">
@@ -167,9 +169,11 @@
 				<span class="online__boxsub">Крупные мероприятия</span>
 				<p class="online__text">Персонал на видеоплощадке: <br>
 				5 видеооператоров, 2 видеоинженера, режиссер эфира, помощник режиссера</p>
-				<span class="online__pricetext">от <em><?php 	echo get_field('четвертая_цена'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
+				<span class="online__pricetext">от <em><?php 	echo get_field('camera4'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
 				<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
-			</div>
+			</div> -->
+			<?php endwhile;  ?>
+			<?php wp_reset_query(); ?>
 		</div>
 				<?php/* endwhile;*/ ?>
 		<div class="online__textbottom">

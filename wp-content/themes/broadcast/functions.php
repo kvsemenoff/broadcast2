@@ -32,7 +32,7 @@ function Price_register() {
             'name'               => __('Прайс'),
             'singular_name'      => __('Прайс'),
             'menu_name'          => __('Прайс'),
-            'all_items'          => __('Все Прайс'),
+            'all_items'          => __('Все Прайсы'),
             'add_new'            => _x('Добавить Прайс', 'product'),
             'add_new_item'       => __('Новый Прайс'),
             'edit_item'          => __('Редактировать Прайс'),
