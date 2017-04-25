@@ -190,18 +190,17 @@
 		</div>
 	</div>
 </div>	
-
+<?php $query = new WP_Query('page_id=95');
+		$query->the_post();
+ ?>
+<?php /*while ( $query->have_posts() ) :*/ ?>
+	
+	
 <div class="command command_bg_color" name="command" id="command">
 	<div class="command__container">
 		<div class="command__textbox">
-			<h2 class="h2_theme_rosa h2_pink command__topcaption">НАША КОМАНДА</h2>
-			<p class="command__text">Основная специализация компании - видеосъемка мероприятий
-			и организация онлайн трансляций в Санкт-Петербурге и регионах.
-			В нашем парке 16 Full HD видеокамер и 9 камер 4K.
-			Компания основана в 2013 году и в среднем мы проводим 7-9 видеотрансляций в месяц.</p>
-			<p class="command__text">Конференции и презентации, спортивные соревнования, концерты
-			и выступления, частные мероприятия, интервью со спикерами
-			в перерывах и многое другое. </p>
+			<h2 class="h2_theme_rosa h2_pink command__topcaption"><?php the_title(); ?></h2>
+			<p class="command__text"><?php the_content(); ?></p>
 		</div>
 
 		<div class="command__slider">
@@ -275,8 +274,9 @@
 		
 	</div>
 	<div class="clearfix"></div>
-</div>	
-
+</div>
+<?php /*endwhile;*/ ?>
+<?php wp_reset_postdata(); ?> 
 
 <div class="our">
 	<div class="container">
