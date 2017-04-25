@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 25 2017 г., 11:30
+-- Время создания: Апр 25 2017 г., 11:44
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -578,14 +578,10 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (391, 1, 'Some_try', ''),
 (392, 1, '_Some_try', 'field_58fe6d0e3b7ce'),
 (393, 81, '_edit_last', '1'),
-(394, 81, 'field_58fee596398a2', 'a:14:{s:3:\"key\";s:19:\"field_58fee596398a2\";s:5:\"label\";s:14:\"1 КАМЕРА\";s:4:\"name\";s:7:\"camera1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
-(395, 81, 'field_58fee5b0398a3', 'a:14:{s:3:\"key\";s:19:\"field_58fee5b0398a3\";s:5:\"label\";s:14:\"2 КАМЕРА\";s:4:\"name\";s:7:\"camera2\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
-(396, 81, 'field_58fee5bb398a4', 'a:14:{s:3:\"key\";s:19:\"field_58fee5bb398a4\";s:5:\"label\";s:14:\"3 КАМЕРА\";s:4:\"name\";s:7:\"camera3\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
-(397, 81, 'field_58fee5c7398a5', 'a:14:{s:3:\"key\";s:19:\"field_58fee5c7398a5\";s:5:\"label\";s:12:\"5 КАМЕР\";s:4:\"name\";s:7:\"camera5\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:3;}'),
 (399, 81, 'position', 'normal'),
 (400, 81, 'layout', 'no_box'),
 (401, 81, 'hide_on_screen', ''),
-(402, 81, '_edit_lock', '1493108264:1'),
+(402, 81, '_edit_lock', '1493109505:1'),
 (405, 82, 'первая_цена', '15000'),
 (406, 82, '_первая_цена', 'field_58fee596398a2'),
 (407, 82, 'вторая_цена', '20000'),
@@ -624,7 +620,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (442, 84, '_edit_last', '1'),
 (443, 84, '_edit_lock', '1493106261:1'),
 (444, 86, '_edit_last', '1'),
-(445, 86, '_edit_lock', '1493107552:1'),
+(445, 86, '_edit_lock', '1493109586:1'),
 (446, 87, '_edit_last', '1'),
 (447, 87, '_edit_lock', '1493107332:1'),
 (448, 88, '_edit_last', '1'),
@@ -684,7 +680,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (504, 91, '_camera3', 'field_58fee5bb398a4'),
 (505, 91, 'camera5', ''),
 (506, 91, '_camera5', 'field_58fee5c7398a5'),
-(507, 91, '_edit_lock', '1493108426:1'),
+(507, 91, '_edit_lock', '1493109647:1'),
 (508, 92, '_edit_last', '1'),
 (509, 92, 'camera1', ''),
 (510, 92, '_camera1', 'field_58fee596398a2'),
@@ -694,9 +690,9 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (514, 92, '_camera3', 'field_58fee5bb398a4'),
 (515, 92, 'camera5', ''),
 (516, 92, '_camera5', 'field_58fee5c7398a5'),
-(517, 92, '_edit_lock', '1493108276:1'),
+(517, 92, '_edit_lock', '1493109633:1'),
 (518, 93, '_edit_last', '1'),
-(519, 93, '_edit_lock', '1493108252:1'),
+(519, 93, '_edit_lock', '1493109618:1'),
 (520, 93, 'camera1', ''),
 (521, 93, '_camera1', 'field_58fee596398a2'),
 (522, 93, 'camera2', ''),
@@ -705,7 +701,34 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (525, 93, '_camera3', 'field_58fee5bb398a4'),
 (526, 93, 'camera5', '50 000'),
 (527, 93, '_camera5', 'field_58fee5c7398a5'),
-(528, 81, 'rule', 'a:5:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"price\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}');
+(529, 81, 'field_58ff0b199350e', 'a:14:{s:3:\"key\";s:19:\"field_58ff0b199350e\";s:5:\"label\";s:31:\"Краткое описание\";s:4:\"name\";s:31:\"краткое_описание\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+(530, 81, 'field_58ff0b2d9350f', 'a:14:{s:3:\"key\";s:19:\"field_58ff0b2d9350f\";s:5:\"label\";s:16:\"Описание\";s:4:\"name\";s:16:\"описание\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
+(531, 81, 'field_58ff0b3993510', 'a:14:{s:3:\"key\";s:19:\"field_58ff0b3993510\";s:5:\"label\";s:8:\"Цена\";s:4:\"name\";s:8:\"цена\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
+(532, 81, 'rule', 'a:5:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"price\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+(533, 86, 'краткое_описание', 'Для 1-го спикера'),
+(534, 86, '_краткое_описание', 'field_58ff0b199350e'),
+(535, 86, 'описание', '1 режесер <br> 1 видео камера'),
+(536, 86, '_описание', 'field_58ff0b2d9350f'),
+(537, 86, 'цена', '15 000'),
+(538, 86, '_цена', 'field_58ff0b3993510'),
+(539, 93, 'краткое_описание', 'Для маленькой площадки'),
+(540, 93, '_краткое_описание', 'field_58ff0b199350e'),
+(541, 93, 'описание', '1 оператор <br> 1 инженер'),
+(542, 93, '_описание', 'field_58ff0b2d9350f'),
+(543, 93, 'цена', '10 000'),
+(544, 93, '_цена', 'field_58ff0b3993510'),
+(545, 92, 'краткое_описание', '***'),
+(546, 92, '_краткое_описание', 'field_58ff0b199350e'),
+(547, 92, 'описание', '***'),
+(548, 92, '_описание', 'field_58ff0b2d9350f'),
+(549, 92, 'цена', '***'),
+(550, 92, '_цена', 'field_58ff0b3993510'),
+(551, 91, 'краткое_описание', '***'),
+(552, 91, '_краткое_описание', 'field_58ff0b199350e'),
+(553, 91, 'описание', '***'),
+(554, 91, '_описание', 'field_58ff0b2d9350f'),
+(555, 91, 'цена', '***'),
+(556, 91, '_цена', 'field_58ff0b3993510');
 
 -- --------------------------------------------------------
 
@@ -820,19 +843,20 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (78, 1, '2017-04-25 00:22:06', '2017-04-24 21:22:06', 'Как это работает?!', 'Как это работает?!', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 00:22:06', '2017-04-24 21:22:06', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
 (79, 1, '2017-04-25 00:24:53', '2017-04-24 21:24:53', '', 'Тестовая запись', '', 'trash', 'closed', 'closed', '', 'acf_%d1%82%d0%b5%d1%81%d1%82%d0%be%d0%b2%d0%b0%d1%8f-%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d1%8c__trashed', '', '', '2017-04-25 09:12:31', '2017-04-25 06:12:31', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=79', 0, 'acf', '', 0),
 (80, 1, '2017-04-25 00:28:43', '2017-04-24 21:28:43', 'Как это работает?!', 'Как это работает?!', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 00:28:43', '2017-04-24 21:28:43', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
-(81, 1, '2017-04-25 08:59:50', '2017-04-25 05:59:50', '', 'Прайс', '', 'publish', 'closed', 'closed', '', 'acf_%d0%bf%d1%80%d0%b0%d0%b9%d1%81', '', '', '2017-04-25 11:20:08', '2017-04-25 08:20:08', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=81', 0, 'acf', '', 0),
+(81, 1, '2017-04-25 08:59:50', '2017-04-25 05:59:50', '', 'Прайс', '', 'publish', 'closed', 'closed', '', 'acf_%d0%bf%d1%80%d0%b0%d0%b9%d1%81', '', '', '2017-04-25 11:39:34', '2017-04-25 08:39:34', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=81', 0, 'acf', '', 0),
 (82, 1, '2017-04-25 09:12:16', '2017-04-25 06:12:16', '', 'Прайс', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 09:12:16', '2017-04-25 06:12:16', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
 (83, 1, '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 'Прайс', '', 'inherit', 'closed', 'closed', '', '1-revision-v1', '', '', '2017-04-25 09:12:24', '2017-04-25 06:12:24', '', 1, 'http://broadcast2.loc/2017/04/25/1-revision-v1/', 0, 'revision', '', 0),
 (84, 1, '2017-04-25 10:31:58', '2017-04-25 07:31:58', '', 'Прайс', '', 'trash', 'closed', 'closed', '', '%d0%b3%d0%b3-%d0%b2%d0%bf__trashed', '', '', '2017-04-25 10:53:16', '2017-04-25 07:53:16', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=84', 0, 'price', '', 0),
 (85, 1, '2017-04-25 10:41:41', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-04-25 10:41:41', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?p=85', 0, 'post', '', 0),
-(86, 1, '2017-04-25 10:46:55', '2017-04-25 07:46:55', '', '1 КАМЕРА', '', 'publish', 'closed', 'closed', '', '1-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:07:34', '2017-04-25 08:07:34', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=86', 0, 'price', '', 0),
+(86, 1, '2017-04-25 10:46:55', '2017-04-25 07:46:55', '', '5 КАМЕР', '', 'publish', 'closed', 'closed', '', '1-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:42:08', '2017-04-25 08:42:08', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=86', 0, 'price', '', 0),
 (87, 1, '2017-04-25 10:47:02', '2017-04-25 07:47:02', '', '2 КАМЕРА', '', 'trash', 'closed', 'closed', '', '2-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0__trashed', '', '', '2017-04-25 11:07:14', '2017-04-25 08:07:14', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=87', 0, 'price', '', 0),
 (88, 1, '2017-04-25 10:47:37', '2017-04-25 07:47:37', '', '3 КАМЕРА', '', 'trash', 'closed', 'closed', '', '3-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0__trashed', '', '', '2017-04-25 11:07:16', '2017-04-25 08:07:16', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=88', 0, 'price', '', 0),
 (89, 1, '2017-04-25 10:47:44', '2017-04-25 07:47:44', '', '5 КАМЕР', '', 'trash', 'closed', 'closed', '', '5-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80__trashed', '', '', '2017-04-25 11:07:18', '2017-04-25 08:07:18', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=89', 0, 'price', '', 0),
 (90, 1, '2017-04-25 10:53:52', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-04-25 10:53:52', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?p=90', 0, 'post', '', 0),
-(91, 1, '2017-04-25 11:19:38', '2017-04-25 08:19:38', '', '2 КАМЕРА', '', 'publish', 'closed', 'closed', '', '2-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:20:25', '2017-04-25 08:20:25', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=91', 0, 'price', '', 0),
-(92, 1, '2017-04-25 11:19:45', '2017-04-25 08:19:45', '', '3 КАМЕРА', '', 'publish', 'closed', 'closed', '', '3-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:20:18', '2017-04-25 08:20:18', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=92', 0, 'price', '', 0),
-(93, 1, '2017-04-25 11:19:55', '2017-04-25 08:19:55', '', '5 КАМЕР', '', 'publish', 'closed', 'closed', '', '5-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80', '', '', '2017-04-25 11:19:55', '2017-04-25 08:19:55', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=93', 0, 'price', '', 0);
+(91, 1, '2017-04-25 11:19:38', '2017-04-25 08:19:38', '', '3 КАМЕРА', '', 'publish', 'closed', 'closed', '', '2-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:43:10', '2017-04-25 08:43:10', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=91', 0, 'price', '', 0),
+(92, 1, '2017-04-25 11:19:45', '2017-04-25 08:19:45', '', '2 КАМЕРЫ', '', 'publish', 'closed', 'closed', '', '3-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80%d0%b0', '', '', '2017-04-25 11:42:56', '2017-04-25 08:42:56', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=92', 0, 'price', '', 0),
+(93, 1, '2017-04-25 11:19:55', '2017-04-25 08:19:55', '', '1 КАМЕРА', '', 'publish', 'closed', 'closed', '', '5-%d0%ba%d0%b0%d0%bc%d0%b5%d1%80', '', '', '2017-04-25 11:42:42', '2017-04-25 08:42:42', '', 0, 'http://broadcast2.loc/?post_type=price&#038;p=93', 0, 'price', '', 0),
+(94, 1, '2017-04-25 11:41:48', '0000-00-00 00:00:00', '', 'Черновик', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-04-25 11:41:48', '0000-00-00 00:00:00', '', 0, 'http://broadcast2.loc/?post_type=price&p=94', 0, 'price', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1134,12 +1158,12 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=529;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=557;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=94;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=95;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --

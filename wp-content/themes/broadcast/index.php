@@ -148,9 +148,9 @@
  			<?php while ( $acsessuar->have_posts() ) : $acsessuar->the_post(); ?>
 					<div class="online__cam_box">	
 					<h4 class="online__boxcaption"><?php the_title(); ?></h4>
-					<span class="online__boxsub">На сцене 1 спикер</span>
-					<p class="online__text">Персонал на видеоплощадке: <br> 1 видеооператор, 1 видеоинженер</p>
-					<span class="online__pricetext">от <em><?php 	echo get_field('camera1'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
+					<span class="online__boxsub"><?php 	echo get_field('краткое_описание'); ?></span>
+					<p class="online__text"><?php 	echo get_field('описание'); ?></p>
+					<span class="online__pricetext">от <em><?php 	echo get_field('цена'); ?></em><i class="fa fa-rub" aria-hidden="true"></i></span>
 					<a href="#modal__form" class="button button_theme_rosa button_order fancybox">Заказать</a>
 				</div>
 				<?php endwhile; ?>
