@@ -3,21 +3,49 @@
 	<ul class="sub">
 		<li>
 			<a href="#">Онлайн трансляции</a>
-			<ul class="sub-list">
-				<li><a href="#">Онлайн трансляции в интернет</a></li>
-				<li><a href="#">Трансляции на экран</a></li>
-				<li><a href="#">Проведение телемостов</a></li>
-				<li><a href="#">Платные видеотрансляции</a></li>
-			</ul>
+			<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Боковое меню', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'sub', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="sub-list">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 		</li>
 		<li>
 			<a href="#">Многокамерная видеосъемка</a>
-			<ul class="sub-list">
-				<li><a href="#">Съемка концертов</a></li>
-				<li><a href="#">Съемка лекций и семинаров</a></li>
-				<li><a href="#">Съемка презентаций</a></li>
-				<li><a href="#">Съемка спортивных мероприятий</a></li>
-			</ul>
+			<?php
+						$args = array(
+							'theme_location'  => '',
+							'menu'            => 'Боковое меню 2', 
+							'container'       => flase, 
+							'container_class' => '', 
+							'container_id'    => '',
+							'menu_class'      => 'sub', 
+							'menu_id'         => '',
+							'echo'            => true,
+							'fallback_cb'     => 'wp_page_menu',
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="sub-list">%3$s</ul>',
+							'depth'           => 0
+							);
+						wp_nav_menu($args ); 
+						?>
 		</li>
 		<li>
 			<a href="#">Аренда ПТС</a>

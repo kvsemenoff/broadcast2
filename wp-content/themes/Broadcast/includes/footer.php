@@ -29,8 +29,9 @@
 					</li>
 				</ul>
 			</div>
+			<?php $query = new WP_Query('page_id=95'); ?>
 			<div class="col-md-3 col-sm-6">
-				<p class="footer__caption">Офис</p>
+				<p class="footer__caption"><?php 	echo get_field('object'); ?></p>
 				<p class="footer__contacts">Каменоостровский пр., д. 26-28 <br>с 11:00 до 19:00</p>
 				<div class="socials">
 					<a href="#" class="socials-link socials-vk"></a>

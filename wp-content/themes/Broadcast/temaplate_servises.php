@@ -8,6 +8,7 @@ Template Name: Услуги
 <?php get_header(); ?>
 	<div class="aero-top">
 	<div class="container clearfix">
+	
 		<?php get_sidebar(); ?>
 		<div class="aero-top__content">
 			<div class="content__title content__title_decstop">

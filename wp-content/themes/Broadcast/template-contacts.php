@@ -11,11 +11,13 @@ Template Name: Контакты
 		<h2 class="h2_theme_rosa h2_pink whattodo__topcaption">Наши контакты</h2>
 		<div class="contact__inner">
 			<div class="contact__info info">
-				<span class="info__text info__text_title">Наш офис</span>
-				<span class="info__text info__text_address">Каменоостровский пр., д. 26-28,</span>
-				<span class="info__text info__text_time">с 11:00 до 19:00</span>
-				<span class="info__text info__text_number">+7 (921) 000-12-05</span>
-				<span class="info__text info__text_mail">info@droadcast-team.ru</span>
+			<?php $query = new WP_Query('page_id=126');
+				$query->the_post(); ?>
+				<span class="info__text info__text_title"><?php 	echo get_field('object'); ?></span>
+				<span class="info__text info__text_address"><?php 	echo get_field('adress'); ?></span>
+				 <span class="info__text info__text_time"></span> 
+				<span class="info__text info__text_number"><?php 	echo get_field('phone'); ?></span>
+				<span class="info__text info__text_mail"><?php 	echo get_field('email'); ?></span>
 				<div class="socials">
 			    <a href="#" class="socials-link socials-vk"></a>
 			    <a href="#" class="socials-link socials-youtube"></a>
