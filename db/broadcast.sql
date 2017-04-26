@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Апр 26 2017 г., 18:47
+-- Время создания: Апр 26 2017 г., 19:04
 -- Версия сервера: 5.7.16-log
 -- Версия PHP: 5.6.29
 
@@ -820,7 +820,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (722, 126, '_edit_last', '1'),
 (723, 126, '_wp_page_template', 'default'),
 (724, 126, 'dfiFeatured', 'a:1:{i:0;s:0:\"\";}'),
-(725, 126, '_edit_lock', '1493221568:1'),
+(725, 126, '_edit_lock', '1493222010:1'),
 (726, 128, '_edit_last', '1'),
 (727, 128, 'field_5900bb158a470', 'a:14:{s:3:\"key\";s:19:\"field_5900bb158a470\";s:5:\"label\";s:31:\"Название объекта\";s:4:\"name\";s:6:\"object\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
 (728, 128, 'field_5900bb428a471', 'a:14:{s:3:\"key\";s:19:\"field_5900bb428a471\";s:5:\"label\";s:25:\"Адрес объекта\";s:4:\"name\";s:6:\"adress\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
@@ -872,7 +872,74 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (776, 131, 'phone', '+7 (921) 000-12-05'),
 (777, 131, '_phone', 'field_5900bb6a8a473'),
 (778, 131, 'email', 'info@droadcast-team.ru'),
-(779, 131, '_email', 'field_5900bbf3e9fd2');
+(779, 131, '_email', 'field_5900bbf3e9fd2'),
+(780, 132, '_edit_last', '1'),
+(781, 132, 'field_5900c3254f161', 'a:14:{s:3:\"key\";s:19:\"field_5900c3254f161\";s:5:\"label\";s:1:\"1\";s:4:\"name\";s:1:\"1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+(782, 132, 'field_5900c32c4f162', 'a:14:{s:3:\"key\";s:19:\"field_5900c32c4f162\";s:5:\"label\";s:3:\"1.1\";s:4:\"name\";s:3:\"1.1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
+(783, 132, 'field_5900c3304f163', 'a:14:{s:3:\"key\";s:19:\"field_5900c3304f163\";s:5:\"label\";s:1:\"2\";s:4:\"name\";s:1:\"2\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
+(784, 132, 'field_5900c3394f164', 'a:14:{s:3:\"key\";s:19:\"field_5900c3394f164\";s:5:\"label\";s:3:\"2.1\";s:4:\"name\";s:3:\"2.1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:3;}'),
+(785, 132, 'field_5900c3414f165', 'a:14:{s:3:\"key\";s:19:\"field_5900c3414f165\";s:5:\"label\";s:1:\"3\";s:4:\"name\";s:1:\"3\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:4;}'),
+(786, 132, 'field_5900c3444f166', 'a:14:{s:3:\"key\";s:19:\"field_5900c3444f166\";s:5:\"label\";s:3:\"3.1\";s:4:\"name\";s:3:\"3.1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:5;}'),
+(787, 132, 'field_5900c3474f167', 'a:14:{s:3:\"key\";s:19:\"field_5900c3474f167\";s:5:\"label\";s:1:\"4\";s:4:\"name\";s:1:\"4\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:6;}'),
+(788, 132, 'field_5900c34a4f168', 'a:14:{s:3:\"key\";s:19:\"field_5900c34a4f168\";s:5:\"label\";s:3:\"4.1\";s:4:\"name\";s:3:\"4.1\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:7;}'),
+(790, 132, 'position', 'normal'),
+(791, 132, 'layout', 'no_box'),
+(792, 132, 'hide_on_screen', ''),
+(793, 132, 'dfiFeatured', 'a:1:{i:0;s:0:\"\";}'),
+(794, 132, '_edit_lock', '1493222272:1'),
+(795, 133, '_edit_last', '1'),
+(796, 133, '_wp_page_template', 'default'),
+(797, 133, 'dfiFeatured', 'a:1:{i:0;s:0:\"\";}'),
+(798, 133, '_edit_lock', '1493222662:1'),
+(799, 132, 'rule', 'a:5:{s:5:\"param\";s:4:\"page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:3:\"133\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+(800, 135, '1', 'Пинаем хуи'),
+(801, 135, '_1', 'field_5900c3254f161'),
+(802, 135, '1.1', 'И это у нас хорошо получается'),
+(803, 135, '_1.1', 'field_5900c32c4f162'),
+(804, 135, '2', ''),
+(805, 135, '_2', 'field_5900c3304f163'),
+(806, 135, '2.1', ''),
+(807, 135, '_2.1', 'field_5900c3394f164'),
+(808, 135, '3', ''),
+(809, 135, '_3', 'field_5900c3414f165'),
+(810, 135, '3.1', ''),
+(811, 135, '_3.1', 'field_5900c3444f166'),
+(812, 135, '4', ''),
+(813, 135, '_4', 'field_5900c3474f167'),
+(814, 135, '4.1', ''),
+(815, 135, '_4.1', 'field_5900c34a4f168'),
+(816, 133, '1', 'ПРОВОДИМ ПРЯМУЮ ТРАНСЛЯЦИЮ'),
+(817, 133, '_1', 'field_5900c3254f161'),
+(818, 133, '1.1', 'Прямая трансляция вашего мероприятия будет доступна на любых устройствах'),
+(819, 133, '_1.1', 'field_5900c32c4f162'),
+(820, 133, '2', 'ПРОВОДИМ ОНЛАЙН-КОНФЕРЕНЦИИ'),
+(821, 133, '_2', 'field_5900c3304f163'),
+(822, 133, '2.1', 'Мы сможем подключить спикера из любой точки мира, где бы он не находился'),
+(823, 133, '_2.1', 'field_5900c3394f164'),
+(824, 133, '3', 'ОРГАНИЗУЕМ ТЕЛЕМОСТЫ'),
+(825, 133, '_3', 'field_5900c3414f165'),
+(826, 133, '3.1', 'Мы сможем подключить спикера из любой точки мира, где бы он не находился'),
+(827, 133, '_3.1', 'field_5900c3444f166'),
+(828, 133, '4', 'СЪЕМКА И ЗАПИСЬ МЕРОПРИЯТИЯ'),
+(829, 133, '_4', 'field_5900c3474f167'),
+(830, 133, '4.1', 'Обеспечим высококачественную запись мероприятия в необходимом формате'),
+(831, 133, '_4.1', 'field_5900c34a4f168'),
+(832, 136, '1', 'ПРОВОДИМ ПРЯМУЮ ТРАНСЛЯЦИЮ'),
+(833, 136, '_1', 'field_5900c3254f161'),
+(834, 136, '1.1', 'Прямая трансляция вашего мероприятия будет доступна на любых устройствах'),
+(835, 136, '_1.1', 'field_5900c32c4f162'),
+(836, 136, '2', 'ПРОВОДИМ ОНЛАЙН-КОНФЕРЕНЦИИ'),
+(837, 136, '_2', 'field_5900c3304f163'),
+(838, 136, '2.1', 'Мы сможем подключить спикера из любой точки мира, где бы он не находился'),
+(839, 136, '_2.1', 'field_5900c3394f164'),
+(840, 136, '3', 'ОРГАНИЗУЕМ ТЕЛЕМОСТЫ'),
+(841, 136, '_3', 'field_5900c3414f165'),
+(842, 136, '3.1', 'Мы сможем подключить спикера из любой точки мира, где бы он не находился'),
+(843, 136, '_3.1', 'field_5900c3444f166'),
+(844, 136, '4', 'СЪЕМКА И ЗАПИСЬ МЕРОПРИЯТИЯ'),
+(845, 136, '_4', 'field_5900c3474f167'),
+(846, 136, '4.1', 'Обеспечим высококачественную запись мероприятия в необходимом формате'),
+(847, 136, '_4.1', 'field_5900c34a4f168');
 
 -- --------------------------------------------------------
 
@@ -1030,7 +1097,12 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (128, 1, '2017-04-26 18:24:18', '2017-04-26 15:24:18', '', 'Общие настройки', '', 'publish', 'closed', 'closed', '', 'acf_%d0%be%d0%b1%d1%89%d0%b8%d0%b5-%d0%bd%d0%b0%d1%81%d1%82%d1%80%d0%be%d0%b9%d0%ba%d0%b8', '', '', '2017-04-26 18:31:15', '2017-04-26 15:31:15', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=128', 0, 'acf', '', 0),
 (129, 1, '2017-04-26 18:26:48', '2017-04-26 15:26:48', '', 'Общие настройки', '', 'inherit', 'closed', 'closed', '', '126-revision-v1', '', '', '2017-04-26 18:26:48', '2017-04-26 15:26:48', '', 126, 'http://broadcast2.loc/2017/04/26/126-revision-v1/', 0, 'revision', '', 0),
 (130, 1, '2017-04-26 18:31:43', '2017-04-26 15:31:43', '', 'Общие настройки', '', 'inherit', 'closed', 'closed', '', '126-revision-v1', '', '', '2017-04-26 18:31:43', '2017-04-26 15:31:43', '', 126, 'http://broadcast2.loc/2017/04/26/126-revision-v1/', 0, 'revision', '', 0),
-(131, 1, '2017-04-26 18:35:36', '2017-04-26 15:35:36', '', 'Общие настройки', '', 'inherit', 'closed', 'closed', '', '126-revision-v1', '', '', '2017-04-26 18:35:36', '2017-04-26 15:35:36', '', 126, 'http://broadcast2.loc/2017/04/26/126-revision-v1/', 0, 'revision', '', 0);
+(131, 1, '2017-04-26 18:35:36', '2017-04-26 15:35:36', '', 'Общие настройки', '', 'inherit', 'closed', 'closed', '', '126-revision-v1', '', '', '2017-04-26 18:35:36', '2017-04-26 15:35:36', '', 126, 'http://broadcast2.loc/2017/04/26/126-revision-v1/', 0, 'revision', '', 0),
+(132, 1, '2017-04-26 18:57:08', '2017-04-26 15:57:08', '', 'Что мы делаем', '', 'publish', 'closed', 'closed', '', 'acf_%d1%87%d1%82%d0%be-%d0%bc%d1%8b-%d0%b4%d0%b5%d0%bb%d0%b0%d0%b5%d0%bc', '', '', '2017-04-26 19:00:15', '2017-04-26 16:00:15', '', 0, 'http://broadcast2.loc/?post_type=acf&#038;p=132', 0, 'acf', '', 0),
+(133, 1, '2017-04-26 18:57:21', '2017-04-26 15:57:21', '', 'Что мы делаем', '', 'publish', 'closed', 'closed', '', '%d1%87%d1%82%d0%be-%d0%bc%d1%8b-%d0%b4%d0%b5%d0%bb%d0%b0%d0%b5%d0%bc', '', '', '2017-04-26 19:04:21', '2017-04-26 16:04:21', '', 0, 'http://broadcast2.loc/?page_id=133', 0, 'page', '', 0),
+(134, 1, '2017-04-26 18:57:21', '2017-04-26 15:57:21', '', 'Что мы делаем', '', 'inherit', 'closed', 'closed', '', '133-revision-v1', '', '', '2017-04-26 18:57:21', '2017-04-26 15:57:21', '', 133, 'http://broadcast2.loc/2017/04/26/133-revision-v1/', 0, 'revision', '', 0),
+(135, 1, '2017-04-26 19:00:39', '2017-04-26 16:00:39', '', 'Что мы делаем', '', 'inherit', 'closed', 'closed', '', '133-revision-v1', '', '', '2017-04-26 19:00:39', '2017-04-26 16:00:39', '', 133, 'http://broadcast2.loc/2017/04/26/133-revision-v1/', 0, 'revision', '', 0),
+(136, 1, '2017-04-26 19:04:21', '2017-04-26 16:04:21', '', 'Что мы делаем', '', 'inherit', 'closed', 'closed', '', '133-revision-v1', '', '', '2017-04-26 19:04:21', '2017-04-26 16:04:21', '', 133, 'http://broadcast2.loc/2017/04/26/133-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -1350,12 +1422,12 @@ ALTER TABLE `wp_options`
 -- AUTO_INCREMENT для таблицы `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=780;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=848;
 --
 -- AUTO_INCREMENT для таблицы `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=132;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=137;
 --
 -- AUTO_INCREMENT для таблицы `wp_termmeta`
 --

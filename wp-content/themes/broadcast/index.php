@@ -71,23 +71,25 @@
 				<span class="command__counter_all">12</span>
 			</div>
 		</div>
+		<?php $query = new WP_Query('page_id=133');
+				$query->the_post(); ?>
 		<div class="whattodo__rightbox">
 			<h2 class="h2_theme_rosa h2_pink whattodo__topcaption">Что мы делаем</h2>
 			<div class="whattodo__txtbox whattodo__txtbox_bg1">
-				<h4 class="whattodo__txtbox_caption">ПРОВОДИМ ПРЯМУЮ ТРАНСЛЯЦИЮ</h4>
-				<span class="whattodo__text"><?php if( get_field('Some_try')){ echo get_field('Some_try');} ?></span>
+				<h4 class="whattodo__txtbox_caption"><?php 	echo get_field('1'); ?></h4>
+				<span class="whattodo__text"><?php 	echo get_field('1.1'); ?></span>
 			</div>
 			<div class="whattodo__txtbox whattodo__txtbox_bg2">
-				<h4 class="whattodo__txtbox_caption">ПРОВОДИМ ОНЛАЙН-КОНФЕРЕНЦИИ</h4>
-				<span class="whattodo__text"><?php if( get_field('Some_try')){ echo get_field('Some_try');} ?></span>
+				<h4 class="whattodo__txtbox_caption"><?php 	echo get_field('2'); ?></h4>
+				<span class="whattodo__text"><?php 	echo get_field('2.1'); ?></span>
 			</div>
 			<div class="whattodo__txtbox whattodo__txtbox_bg3">
-				<h4 class="whattodo__txtbox_caption">ОРГАНИЗУЕМ ТЕЛЕМОСТЫ</h4>
-				<span class="whattodo__text">Мы сможем подключить спикера из любой точки мира, где бы он не находился</span>
+				<h4 class="whattodo__txtbox_caption"><?php 	echo get_field('3'); ?></h4>
+				<span class="whattodo__text"><?php 	echo get_field('3.1'); ?></span>
 			</div>
 			<div class="whattodo__txtbox whattodo__txtbox_bg4">
-				<h4 class="whattodo__txtbox_caption">СЪЕМКА И ЗАПИСЬ МЕРОПРИЯТИЯ</h4>
-				<span class="whattodo__text">Обеспечим высококачественную запись мероприятия в необходимом формате</span>
+				<h4 class="whattodo__txtbox_caption"><?php 	echo get_field('4'); ?></h4>
+				<span class="whattodo__text"><?php 	echo get_field('4.1'); ?></span>
 			</div>
 		</div>
 	
