@@ -19,8 +19,8 @@ Template Name: Услуги
 		while ( have_posts() ) : the_post();?>
 		<div class="aero-top__content">
 			<div class="content__title content__title_decstop">
-				<h2 class="h2_theme_rosa h2_pink h2_inner_page">Аэрофотосъемка</h2>
-				<span class="content__descr">Фотосъемка с высоты до 500 метров</span>
+				<h2 class="h2_theme_rosa h2_pink h2_inner_page"><?php the_title(); ?></h2>
+				<span class="content__descr"><?php the_title(); ?></span>
 			</div>
 			<div class="content__inner clearfix">
 				<div class="content__img-wrap">
