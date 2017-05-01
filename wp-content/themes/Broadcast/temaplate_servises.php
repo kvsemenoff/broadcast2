@@ -28,12 +28,11 @@ Template Name: Услуги
 				</div>
 				<div class="content__text-wrap">
 					<div class="content__title content__title_mobile">
-						<h2 class="h2_theme_rosa h2_pink h2_inner_page">Аэрофотосъемка</h2>
-						<span class="content__descr">Фотосъемка с высоты до 500 метров</span>
+						<h2 class="h2_theme_rosa h2_pink h2_inner_page"><?php the_title(); ?></h2>
+						<span class="content__descr"><?php the_excerpt(); ?></span>
 					</div>
-					<p class="content__text">Основная специализация компании - видеосъемка мероприятий и организация онлайн трансляций в Санкт-Петербурге и регионах. В нашем парке 16 Full HD видеокамер и 9 камер 4K. Компания основана в 2013 году и мы проводим 7-9 видеотрансляций в месяц.</p>
-					<p class="content__text">Конференции и презентации, спортивные соревнования, интервью со спикерами в перерывах и многое другое. </p>
-					<p class="content__text content__text_last">Проснувшись утром после сна, Грегор обнаружил, что он превратился в страшное насекомое.</p>
+					<p class="content__text"><?php the_content(); ?></p>
+					
 				</div>
 			</div>
 		</div>
@@ -58,15 +57,15 @@ Template Name: Услуги
 	<div class="aero__container aero__container_theme_rosa">
 
 		<div class="aero__imgbox">
-			<h2 class="aero__caption__mobileversion"><?php get_title(); ?></h2>
-			<span class="aero__cap_sub">Фотосъемка с высоты до 500 метров</span>
+			<h2 class="aero__caption__mobileversion"><?php the_title(); ?></h2>
+			<span class="aero__cap_sub"><?php the_excerpt(); ?></span>
 			<div class="aero__img"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></div>
 			<span class="aero__txt_sub">Ноябрь 2016, ресторан «Бали»</span>
 		</div>
 
 		<div class="aero__textbox">
 			<h2 class="h2_theme_rosa h2_pink h2_inner_page aero__caption">Аэрофотосъемка</h2>
-			<p class="aero__txt"><?php get_content(); ?> </p>
+			<p class="aero__txt"><?php the_content(); ?> </p>
 						
 		</div>
 		<div class="clearfix"></div>	
@@ -204,5 +203,5 @@ Template Name: Услуги
 		</div>
 	</div>	
 </div>
-<?php  endwhile;?>
+<?php  endwhile;	?>
 <?php get_footer(); ?>
