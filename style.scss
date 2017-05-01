@@ -1,7 +1,3 @@
-body, html { 
-	min-height: 100%;
-    height: auto;
-}
 html, body, div, span, applet, object, iframe,
 h1,h2,h4,h5,h3, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,7 +37,6 @@ q:before, q:after {
   content: '';
   content: none; 
 }
-
 @font-face {
 	font-family: "SegoeUIRegular";
 	src: url("./fonts/SegoeUIRegular/SegoeUIRegular.eot");
@@ -322,8 +317,7 @@ body {
 	border: 1px solid #818181;
 }
 body, html{
-	min-height: 100%;
-	height:auto;
+	height:100%;
 }
 
 .n-header{
@@ -1194,7 +1188,7 @@ body, html{
 		}
 	}
 }
-/*
+
 .fancybox-opened,.fancybox-wrap{
 	width: 90%!important;
 	max-width: 870px;
@@ -1203,7 +1197,7 @@ body, html{
 .fancybox-inner{
 	width: 100%!important;
 }
-*/
+
 .fancybox-skin{
 	padding: 0!important;
 }
@@ -1213,12 +1207,6 @@ body, html{
 	height: 14px;
 	top: 19px;
 	right: 19px;
-}
-.single-image{
-	.fancybox-close{
-		top: 19px;
-		right: -30px;
-	}
 }
 .modal{
 	display: none;
@@ -2569,16 +2557,7 @@ body, html{
 .kama_breadcrumbs{
 	color: white;
 }
-.fancybox-lock .fancybox-overlay{
-	position: fixed; 
-	top: 0; 
-	left: 0; 
-	z-index: 9990; 
-	background: rgba(0, 0, 0, 0.8);
-}
-.single-image{
-	cursor: pointer;
-}
+
 
 @media only screen and (min-width : 320px) {
 }

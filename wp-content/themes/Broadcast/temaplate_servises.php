@@ -10,6 +10,12 @@ Template Name: Услуги
 	<div class="container clearfix">
 	
 		<?php get_sidebar(); ?>
+		<?php 
+	$query = new WP_Query('page_id=5');
+	$query->the_post();
+	the_title();
+	the_content();
+				 ?>
 		<div class="aero-top__content">
 			<div class="content__title content__title_decstop">
 				<h2 class="h2_theme_rosa h2_pink h2_inner_page">Аэрофотосъемка</h2>
@@ -75,13 +81,13 @@ Template Name: Услуги
 	<div class="foto_job__container">
 		<h2 class="h2_theme_rosa h2_pink h2_inner_page filming__caption">Фотографии процесса нашей работы</h2>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<a class="single-image" href="<?php echo get_template_directory_uri(); ?>/img/whatimg.png"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></a>
 		</div>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<a class="single-image" href="<?php echo get_template_directory_uri(); ?>/img/whatimg.png"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></a>
 		</div>
 		<div class="foto_job__img">
-			<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt="">
+			<a class="single-image" href="<?php echo get_template_directory_uri(); ?>/img/whatimg.png"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></a>
 		</div>
 	</div>
 </div>
@@ -201,4 +207,5 @@ Template Name: Услуги
 		</div>
 	</div>	
 </div>
+
 <?php get_footer(); ?>
