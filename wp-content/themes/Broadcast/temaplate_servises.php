@@ -204,5 +204,5 @@ Template Name: Услуги
 		</div>
 	</div>	
 </div>
-<?php  ?>
+<?php  endwhile;?>
 <?php get_footer(); ?>
