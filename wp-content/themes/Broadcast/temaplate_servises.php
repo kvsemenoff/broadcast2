@@ -20,12 +20,20 @@ Template Name: Услуги
 		<div class="aero-top__content">
 			<div class="content__title content__title_decstop">
 				<h2 class="h2_theme_rosa h2_pink h2_inner_page"><?php the_title(); ?></h2>
-				<span class="content__descr"><?php the_title(); ?></span>
+				<span class="content__descr"><?php the_excerpt(); ?></span>
 			</div>
 			<div class="content__inner clearfix">
+			<?php global $dynamic_featured_image; ?>
+     <?php $featured_images = $dynamic_featured_image->get_featured_images( get_the_ID() );  ?>
+			<?php 
+			$query = new WP_Query('page_id=5');
+			$query->the_post();
+			foreach($featured_images as $featured_image) { ?>
+     		
 				<div class="content__img-wrap">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" class="content__img" alt="">
+					<img src="<?php echo $featured_image['full']; ?>" class="content__img" alt="">
 				</div>
+			<?php } ?>
 				<div class="content__text-wrap">
 					<div class="content__title content__title_mobile">
 						<h2 class="h2_theme_rosa h2_pink h2_inner_page"><?php the_title(); ?></h2>
