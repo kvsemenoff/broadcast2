@@ -11,11 +11,12 @@ Template Name: Услуги
 	
 		<?php get_sidebar(); ?>
 		<?php 
-	$query = new WP_Query('page_id=5');
-	$query->the_post();
-	the_title();
-	the_content();
-				 ?>
+	// $query = new WP_Query('page_id=5');
+	// $query->the_post();
+	// the_title();
+	// the_content();
+    // Start the Loop.
+		while ( have_posts() ) : the_post();?>
 		<div class="aero-top__content">
 			<div class="content__title content__title_decstop">
 				<h2 class="h2_theme_rosa h2_pink h2_inner_page">Аэрофотосъемка</h2>
@@ -57,7 +58,7 @@ Template Name: Услуги
 	<div class="aero__container aero__container_theme_rosa">
 
 		<div class="aero__imgbox">
-			<h2 class="aero__caption__mobileversion">Аэрофотосъемка</h2>
+			<h2 class="aero__caption__mobileversion"><?php get_title(); ?></h2>
 			<span class="aero__cap_sub">Фотосъемка с высоты до 500 метров</span>
 			<div class="aero__img"><img src="<?php echo get_template_directory_uri(); ?>/img/whatimg.png" alt=""></div>
 			<span class="aero__txt_sub">Ноябрь 2016, ресторан «Бали»</span>
@@ -65,12 +66,8 @@ Template Name: Услуги
 
 		<div class="aero__textbox">
 			<h2 class="h2_theme_rosa h2_pink h2_inner_page aero__caption">Аэрофотосъемка</h2>
-			<p class="aero__txt">Проснувшись однажды утром после беспокойного сна, Грегор Замза обнаружил, что он
-				у себя в постели превратился в страшное насекомое. Лежа на панцирнотвердой спине,
-				он видел, стоило ему приподнять голову, свой коричневый, выпуклый, разделенный дугообразными чешуйками живот, на верхушке которого еле держалось готовое вот-вот окончательно сползти одеяло. </p>
-			<p class="aero__txt">
-				Его комната, настоящая, разве что слишком маленькая, но обычная комната, мирно покоилась в своих четырех хорошо знакомых стенах. Над столом, где были разложены распакованные образцы сукон – Замза был коммивояжером, – висел портрет, который
-				он недавно вырезал из журнала и вставил в красивую золоченую рамку. </p>			
+			<p class="aero__txt"><?php get_content(); ?> </p>
+						
 		</div>
 		<div class="clearfix"></div>	
 	</div>
@@ -207,5 +204,5 @@ Template Name: Услуги
 		</div>
 	</div>	
 </div>
-
+<?php  ?>
 <?php get_footer(); ?>
